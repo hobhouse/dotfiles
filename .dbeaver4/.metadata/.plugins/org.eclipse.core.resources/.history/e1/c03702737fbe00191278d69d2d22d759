@@ -1,0 +1,2 @@
+select * from subscriptions
+where bank_name is null

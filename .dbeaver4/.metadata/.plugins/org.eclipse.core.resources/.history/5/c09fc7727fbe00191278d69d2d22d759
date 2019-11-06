@@ -1,0 +1,2 @@
+select * from customer_accounts
+where practice_id=18

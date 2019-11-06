@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgres-jdbc-16b3165b59c-6a545b509f5a0c87" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - dd0p5odnikr8ia" save-password="true" read-only="false">
+		<connection host="ec2-63-34-221-127.eu-west-1.compute.amazonaws.com" port="5432" server="" database="dd0p5odnikr8ia" url="jdbc:postgresql://ec2-63-34-221-127.eu-west-1.compute.amazonaws.com:5432/dd0p5odnikr8ia" user="ilg-glasgow" password="A1AHcUIWEhIHQgdqEURGUH9AUxEXQUYjcyUVBEpcXFJCVV0EBQdBFT0pEAZeSwICcBRBFURXQlZqQhdEUiNHUkMkpQ==" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+		<custom-property name="resultset.maxrows" value="1000"/>
+	</data-source>
+	<data-source id="dbeaver-sample-database-sqlite-1" provider="generic" driver="sqlite_jdbc" name="DBeaver Sample Database (SQLite)" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/Users/jackhobhouse/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db" url="jdbc:sqlite:/Users/jackhobhouse/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db" type="dev"/>
+	</data-source>
+	<data-source id="postgres-jdbc-16b6ae12b3d-639eccf22793cb27" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="vetpost_development" url="jdbc:postgresql://localhost:5432/vetpost_development" user="jackhobhouse" password="EBYTLUNPQXbk" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16df95c7331-3680e23724a69ba3" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - d9c0db8pfl5pe9 - Staging" save-password="true" read-only="false">
+		<connection host="ec2-54-247-96-169.eu-west-1.compute.amazonaws.com" port="5432" server="" database="d9c0db8pfl5pe9" url="jdbc:postgresql://ec2-54-247-96-169.eu-west-1.compute.amazonaws.com:5432/d9c0db8pfl5pe9" user="gvbzavwjedfjgi" password="R1VQI0UVQEBRQVVoExNHUCNGAxEWR0J2ICFCAktRUV9PAFYDAlQXHWguHlEDEVBTeRgQEUNUS1VoQ0UWDyNEVSWl" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16e1c1a230f-e01535c62ae3246" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - slp2_development" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="slp2_development" url="jdbc:postgresql://localhost:5432/slp2_development" user="jackhobhouse" password="EBYTLUNPQXbk" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="ExecutionPlan/postgres-jdbc">
+		<column name="Node Type" visible="true" order="0" width="165"/>
+		<column name="Entity" visible="true" order="1" width="253"/>
+		<column name="Cost" visible="true" order="2" width="84"/>
+		<column name="Rows" visible="true" order="3" width="32"/>
+		<column name="Time" visible="true" order="4" width="42"/>
+		<column name="Condition" visible="true" order="5" width="186"/>
+	</item>
+	<item id="NodeList/PostgreIndex/PostgreIndexColumn">
+		<column name="Index Name" visible="true" order="0" width="339"/>
+		<column name="Table Column" visible="true" order="1" width="153"/>
+		<column name="Table" visible="true" order="2" width="130"/>
+		<column name="Ascending" visible="true" order="3" width="60"/>
+		<column name="Nullable" visible="true" order="4" width="47"/>
+		<column name="Unique" visible="true" order="5" width="42"/>
+		<column name="Operator Class" visible="true" order="6" width="83"/>
+		<column name="Predicate" visible="true" order="7" width="54"/>
+		<column name="Rel Size" visible="true" order="8" width="47"/>
+		<column name="Access Method" visible="true" order="9" width="85"/>
+		<column name="Tablespace" visible="true" order="10" width="64"/>
+		<column name="Comment" visible="true" order="11" width="55"/>
+	</item>
+	<item id="NodeList/PostgreInformation/DBNDatabaseFolder">
+		<column name="Name" visible="true" order="0" width="89"/>
+	</item>
+	<item id="NodeList/PostgreProcedure">
+		<column name="Procedure Name" visible="true" order="0" width="178"/>
+		<column name="Language" visible="true" order="1" width="56"/>
+		<column name="Return Type" visible="true" order="2" width="68"/>
+		<column name="Aggregate" visible="true" order="3" width="59"/>
+		<column name="Window" visible="true" order="4" width="46"/>
+		<column name="Security Definer" visible="true" order="5" width="89"/>
+		<column name="Leakproof" visible="true" order="6" width="57"/>
+		<column name="Strict" visible="true" order="7" width="33"/>
+		<column name="Returns Set" visible="true" order="8" width="66"/>
+		<column name="Proc Volatile" visible="true" order="9" width="70"/>
+		<column name="Procedure Description" visible="true" order="10" width="122"/>
+	</item>
+	<item id="NodeList/PostgreRole">
+		<column name="Name" visible="true" order="0" width="146"/>
+		<column name="Object ID" visible="true" order="1" width="54"/>
+	</item>
+	<item id="NodeList/PostgreSchema">
+		<column name="Name" visible="true" order="0" width="63"/>
+		<column name="Comment" visible="true" order="1" width="149"/>
+	</item>
+	<item id="NodeList/PostgreSequence">
+		<column name="Table Name" visible="true" order="0" width="185"/>
+		<column name="Object ID" visible="true" order="1" width="54"/>
+		<column name="Last Value" visible="true" order="2" width="59"/>
+		<column name="Owner" visible="true" order="3" width="39"/>
+		<column name="Min Value" visible="true" order="4" width="55"/>
+		<column name="Max Value" visible="true" order="5" width="58"/>
+		<column name="Increment By" visible="true" order="6" width="74"/>
+		<column name="Cache" visible="true" order="7" width="38"/>
+		<column name="Cycled" visible="true" order="8" width="40"/>
+		<column name="Comment" visible="true" order="9" width="55"/>
+	</item>
+	<item id="NodeList/PostgreTable">
+		<column name="Table Name" visible="true" order="0" width="100"/>
+		<column name="Object ID" visible="true" order="1" width="100"/>
+		<column name="Owner" visible="true" order="2" width="100"/>
+		<column name="Tablespace" visible="true" order="3" width="100"/>
+		<column name="Row Count Estimate" visible="true" order="4" width="110"/>
+		<column name="Comment" visible="true" order="5" width="100"/>
+	</item>
+	<item id="NodeList/PostgreTableColumn">
+		<column name="Column Name" visible="true" order="0" width="168"/>
+		<column name="#" visible="true" order="1" width="21"/>
+		<column name="Data type" visible="true" order="2" width="68"/>
+		<column name="Length" visible="true" order="3" width="41"/>
+		<column name="Precision" visible="true" order="4" width="53"/>
+		<column name="Scale" visible="true" order="5" width="33"/>
+		<column name="Identity" visible="true" order="6" width="44"/>
+		<column name="Collation" visible="true" order="7" width="51"/>
+		<column name="Not Null" visible="true" order="8" width="47"/>
+		<column name="Default" visible="true" order="9" width="283"/>
+		<column name="Comment" visible="true" order="10" width="55"/>
+	</item>
+	<item id="NodeList/PostgreTableRegular">
+		<column name="Table Name" visible="true" order="0" width="149"/>
+		<column name="Object ID" visible="true" order="1" width="54"/>
+		<column name="Owner" visible="true" order="2" width="39"/>
+		<column name="Tablespace" visible="true" order="3" width="64"/>
+		<column name="Row Count Estimate" visible="true" order="4" width="110"/>
+		<column name="Comment" visible="true" order="5" width="55"/>
+	</item>
+	<item id="NodeList/PostgreView">
+		<column name="Name" visible="true" order="0" width="141"/>
+		<column name="Object ID" visible="true" order="1" width="54"/>
+		<column name="Owner" visible="true" order="2" width="39"/>
+		<column name="Row Count Estimate" visible="true" order="3" width="110"/>
+		<column name="Comment" visible="true" order="4" width="55"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="63"/>
+		<column name="Comment" visible="true" order="1" width="159"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="297"/>
+		<column name="Time" visible="true" order="1" width="174"/>
+		<column name="Info" visible="true" order="2" width="1600"/>
+	</item>
+</items>
