@@ -1,0 +1,149 @@
+{
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "html.format.wrapLineLength": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "sync.gist": "ef20bbdee84ffcbe8e82409c7bbc1e81",
+    "gitTreeCompare.diffMode": "merge",
+    "scm.alwaysShowProviders": true,
+    "gitTreeCompare.iconsMinimal": true,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.SublimeText3Mode": true,
+    "html.format.endWithNewline": true,
+    "ruby.format": "rubocop",
+    "ruby.codeCompletion": "rcodetools",
+    "solargraph.formatting": true,
+    "gitHistory.hideCommitViewExplorer": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.autofetch": true,
+    "highlight-matching-tag.enabled":true,
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "editor.suggestSelection": "first",
+    "editor.accessibilitySupport": "off",
+    "ruby.intellisense": "rubyLocate",
+    "yaml.schemas": {
+      "file:///Users/jackhobhouse/.vscode/extensions/atlassian.atlascode-2.10.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+      {
+        "id": "fd2ecad6-bf21-489d-aac5-2d7de1eb5b16",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Further Analysis",
+        "query": "status = \"Further Analysis\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "c3cad977-4bd8-4a04-9a49-bcaa992c8e16",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Next Vets",
+        "query": "status = \"Next - Vets\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "79ffb4ba-0874-4a21-989d-3d84011eb1a4",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Next",
+        "query": "status = \"Next!\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "b7e1971d-a131-47a9-b1d3-041f489e5afb",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Ready for Testing",
+        "query": "status = \"Ready for Testing\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "3a3408cd-3419-4592-87cc-bd710bc246eb",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "In Testing",
+        "query": "status = \"In Testing\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "02db8c3f-5bb6-4a79-8207-bfba2e975bc7",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Ready for Prodcution",
+        "query": "status = \"Ready for Production\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "afb6ea6b-b24a-4589-887f-fddf48d0cc11",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "In Progres",
+        "query": "status = \"In Progress\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "eaeca947-e664-4303-8b85-79ad2d31e026",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "Recently Updated ",
+        "query": "updatedDate >= -1d",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "45b01ea8-6d5b-4bde-8ad1-10bda9cd7fc5",
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "name": "My Tickets",
+        "query": "assignee = currentUser()",
+        "enabled": true,
+        "monitor": true
+      }
+    ],
+    "atlascode.jira.explorer.refreshInterval": 5,
+    "atlascode.jira.explorer.fetchAllQueryResults": true,
+    "atlascode.bitbucket.enabled": true,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+        "projectKey": "VS"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "files.associations": {
+        "*.erb": "erb"
+    },
+    "[ruby]": {
+        "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "editor.tabSize": 2,
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "git.enableSmartCommit": true,
+    "ruby.rubocop.executePath": "/Users/jackhobhouse/.rbenv/shims/",
+    "atlascode.jira.statusbar.showLogin": true,
+    "atlascode.jira.statusbar.showUser": false,
+    "atlascode.jira.statusbar.showProduct": false,
+    "atlascode.jira.statusbar.enabled": true,
+    "atlascode.bitbucket.preferredRemotes": [
+        "upstream",
+        "origin",
+        "https://github.com/indigo-lighthouse/starfish.git",
+        "git@github.com:indigo-lighthouse/starfish.gi",
+        "master"
+    ],
+    "atlascode.bitbucket.explorer.enabled": true,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "atlascode.bitbucket.statusbar.showProduct": true,
+    "atlascode.bitbucket.statusbar.showUser": true,
+    "jira-plugin.baseUrl": "https://indigolighthouse.atlassian.net",
+    "jira-plugin.username": "vzQsXqRrr0JsWEnJ1TA4ug2WTuJHEIFi",
+    "discord.removeDetails": true,
+    "discord.removeRemoteRepository": true,
+    "discord.removeLowerDetails": true
+}

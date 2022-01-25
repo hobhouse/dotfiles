@@ -1,0 +1,104 @@
+# For a full list of active aliases, run `alias`.
+
+# Shortcuts
+alias d="cd ~/My\ Drive"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias h="history"
+alias j="jobs"
+alias e="exit"
+
+# Shorten commonly typed
+alias s="spotify"
+alias ss="spring stop"
+alias bert="bundle exec rails test"
+alias ytd="youtube-dl"
+alias hh="hstr"
+
+# Start/stop Redis
+alias redis-start="(redis-server &)"
+alias redis-stop="(redis-cli shutdown)"
+
+# Always enable colored `grep` output
+# Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Get week number
+alias week='date +%V'
+
+# Update Node and global packages
+alias update-node='~/projects/personal/dotfiles/scripts/node.sh; omz update'
+
+# Update Homebrew packages
+alias update-brew='brew update; brew upgrade; brew cleanup; omz update'
+
+# Update Ruby Gems
+alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; rbenv rehash; omz update'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Show active network interfaces
+alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+
+# Trim new lines and copy to clipboard
+alias c="tr -d '\n' | pbcopy"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Empty the Trash on all mounted volumes and the main HDD.
+# Also, clear Apple’s System Logs to improve shell startup speed.
+# Finally, clear download history from quarantine. https://mths.be/bum
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec ${SHELL} -l"
+
+alias merge_destroy="/Users/jackhobhouse/scripts/merge_and_destroy_pr"
+alias t="./run_tests"
+alias rt='rails test'
+alias s="./bin/rails s"
+alias pt="papertrail"
+alias pr_checks="gh pr checks $(hub pr show -f '%I')"
+
+alias pr_checks="gh pr checks $(hub pr show -f '%I')"
+alias checkout_pr="/Users/jackhobhouse/scripts/checkout-pr.sh"
+
+alias vetpost="j vetpost; code . ; stree ; open -a iTerm . ; bundle ; yarn ; rails db:migrate ; s"
+alias weekly-download="heroku run rails export:shipments -a vetpost-production | grep -v DEBUG | tee Shipments-$(date "+%d-%m-%y").csv"
+alias weekly-download-2="heroku run rails export:payments -a vetpost-production | grep -v DEBUG | tee Payments-$(date "+%d-%m-%y").csv && sleep 20 && zip -P indigolighthouse1998 Payments-$(date "+%d-%m-%y").zip  Payments-$(date "+%d-%m-%y").csv"
+alias weekly-lock="zip -P indigolighthouse1998 Payments-$(date "+%d-%m-%y").zip  Payments-$(date "+%d-%m-%y").csv"
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update -g; omz update'

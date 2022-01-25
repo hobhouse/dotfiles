@@ -1,0 +1,84 @@
+name: Scripts
+
+on: [push]
+
+jobs:
+  shell:
+    name: shell.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run shell.sh
+        run: ./scripts/shell.sh
+
+  node:
+    name: node.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run node.sh
+        run: ./scripts/node.sh
+
+  python:
+    name: python.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run python.sh
+        run: |
+          brew install pyenv
+          ./scripts/python.sh
+
+  ruby:
+    name: ruby.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run ruby.sh
+        run: ./scripts/ruby.sh
+
+  iterm2:
+    name: iterm2.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run iterm2.sh
+        run: ./scripts/iterm2.sh
+
+  vscode:
+    name: vscode.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run vscode.sh
+        run: ./scripts/vscode.sh
+
+  sublime:
+    name: sublime.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run sublime.sh
+        run: |
+          brew install duti
+          ./scripts/sublime.sh
+
+  macos:
+    name: macos.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run macos.sh
+        run: |
+          brew install dockutil
+          brew install dark-mode
+          brew install duti
+          ./scripts/macos.sh

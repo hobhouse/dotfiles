@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>Rails code</title>
+		<snippets>
+			<snippet>
+				<title>Delete subscipitons</title>
+				<content>Practice.find(1).customer_accounts.where(&quot;email like &apos;customer@test.com&apos;&quot;).destroy_all</content>
+			</snippet>
+			<snippet>
+				<title>Hard bd reset</title>
+				<content>./bin/rails &apos;db:seed</content>
+			</snippet>
+			<snippet>
+				<title>See whats listening</title>
+				<content>lsof -wni tcp:3000</content>
+			</snippet>
+			<snippet>
+				<title>Load db from backup</title>
+				<content>pg_restore --verbose --clean --no-acl --no-owner -h localhost -d vetpost_development latest.dump</content>
+			</snippet>
+			<snippet>
+				<title>DB drop and new</title>
+				<content>rails db:drop &amp;&amp; rails db:create &amp;&amp; rails db:migrate &amp;&amp; rails db:seed</content>
+			</snippet>
+			<snippet>
+				<title>Upcoming shipments Download</title>
+				<content>heroku run rails export:shipments -a vetpost-eu | tee shipments.csv</content>
+			</snippet>
+			<snippet>
+				<title>Kill All</title>
+				<content>kill -9 $(lsof -i:3000 -t)</content>
+			</snippet>
+			<snippet>
+				<title>SQL from console</title>
+				<content>ActiveRecord::Base.connection.execute(sql).map(&amp;:to_h)</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>slp</title>
+		<snippets>
+			<snippet>
+				<title>Fetch product localiy</title>
+				<content>CLIENT_ID=300000 orderProcessor=sap SAP_COGNITO_USERNAME=featuristNodeJS SAP_COGNITO_POOL_ID=us-east-1_ftTIyh88E SAP_COGNITO_PASSWORD=tSUv7_8z2G10Y.l SAP_COGNITO_CLIENT_ID=250fmr04rgvdiq28sf479u96bs SAP_API_URL=https://lu3sud7iqb.execute-api.us-east-1.amazonaws.com/dev/ scripts/ingest-products```</content>
+			</snippet>
+			<snippet>
+				<title>Agressive nuke</title>
+				<content>yarn &amp;&amp; yarn db:nuke-and-seed-accounts &amp;&amp; yarn start</content>
+			</snippet>
+			<snippet>
+				<title>run test</title>
+				<content>./features/run/all</content>
+			</snippet>
+			<snippet>
+				<title>Fast Test</title>
+				<content>features/run/dom-memory --fail-fast</content>
+			</snippet>
+			<snippet>
+				<title>Local URL</title>
+				<content>http://samsclub.localhost:5000/env</content>
+			</snippet>
+			<snippet>
+				<title>Product ingest - choose client and app</title>
+				<content>heroku run CLIENT_ID= 900004 ./scripts/ingest-products -a  indigo-slp-production-sams</content>
+			</snippet>
+			<snippet>
+				<title>Local db nuke and seed</title>
+				<content>yarn &amp;&amp; yarn db:nuke-and-seed-accounts &amp;&amp; yarn start</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Zoom</title>
+		<snippets>
+			<snippet>
+				<title>Zoom URl</title>
+				<content>https://indigolighthouse.zoom.us/j/5449113923?pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09</content>
+			</snippet>
+			<snippet>
+				<title>Zoom invite</title>
+				<content>Join Zoom Meeting&#10;https://indigolighthouse.zoom.us/j/5449113923?pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09&#10;&#10;One tap mobile&#10;+442030512874,,5449113923# United Kingdom&#10;+442034815237,,5449113923# United Kingdom&#10;&#10;Dial by your location&#10;        +44 203 051 2874 United Kingdom&#10;        +44 203 481 5237 United Kingdom&#10;        +44 203 966 3809 United Kingdom&#10;        +44 131 460 1196 United Kingdom&#10;        +1 646 876 9923 US (New York)&#10;        +1 669 900 6833 US (San Jose)&#10;        +1 408 638 0968 US (San Jose)&#10;Meeting ID: 544 911 3923&#10;Find your local number: https://zoom.us/u/ak1TlG44t</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>SLP2</title>
+		<snippets>
+			<snippet>
+				<title>New Platform User</title>
+				<content>PlatformAdminUser.create!(email: &apos;admin@test.com&apos;, password: &apos;123456&apos;)</content>
+			</snippet>
+			<snippet>
+				<title>Test in browser (use byebug)</title>
+				<content>GUI=1 be rails test test/</content>
+			</snippet>
+			<snippet>
+				<title>All tests</title>
+				<content>bundle exec rails test:coverage:models&#10;bundle exec rails test:coverage&#10;bundle exec rails test:system</content>
+			</snippet>
+			<snippet>
+				<title>System tests</title>
+				<content>bundle exec rails test:system</content>
+			</snippet>
+			<snippet>
+				<title>Shop Floor mode URL</title>
+				<content>en/store-ipad-associate-sessions/new</content>
+			</snippet>
+			<snippet>
+				<title>Do without Tenant</title>
+				<content>ActsAsTenant.without_tenant {</content>
+			</snippet>
+			<snippet>
+				<title>ActAsTennant</title>
+				<content>ActsAsTenant.current_tenant = c</content>
+			</snippet>
+			<snippet>
+				<title>Turn off logging</title>
+				<content>ActiveRecord::Base.logger = Logger.new(nil)</content>
+			</snippet>
+			<snippet>
+				<title>Demo Distributor</title>
+				<content>/demo/distributor/shipments?locale=en-GB</content>
+			</snippet>
+			<snippet>
+				<title>Demo - iPad mdoe</title>
+				<content>test-support/ipad-navigation-setup</content>
+			</snippet>
+			<snippet>
+				<title>ThirdPartyLogs Search</title>
+				<content>ThirdPartyLog.where(&quot;request_body ILIKE ?&quot;, &apos;%NextDay%&apos;)</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Email Addresses</title>
+		<snippets>
+			<snippet>
+				<title>ILG</title>
+				<content>jhobhouse@indigolighthouse.com</content>
+			</snippet>
+			<snippet>
+				<title>Not_boverd</title>
+				<content>not_boverd@hotmail.com</content>
+			</snippet>
+			<snippet>
+				<title>Hotmail</title>
+				<content>jackhobhouse@hotmail.com</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Other</title>
+		<snippets>
+			<snippet>
+				<title>Jira Problem</title>
+				<content>*+Problem+*&#10;&#10;*+Scenario+*&#10;&#10;*+Functional requirement+*&#10;&#10;*+Acceptance criteria+*</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
