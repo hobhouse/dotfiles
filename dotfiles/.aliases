@@ -92,7 +92,7 @@ alias t="./run_tests"
 alias rt='rails test'
 alias s="./bin/rails s"
 alias pt="papertrail"
-# alias pr_checks="gh pr checks $(hub pr show -f '%I')"
+alias pr_checks="gh pr checks $(hub pr show -f '%I')"
 
 alias checkout_pr="/Users/jackhobhouse/Projects/Personal/dotfiles/Raycast/checkout.sh"
 
