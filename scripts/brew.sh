@@ -37,6 +37,7 @@ brew install redis
 brew install php
 # brew install go
 brew install gh
+brew install ian4hu/clipy/ian4hu-clipy
 
 brew tap heroku/brew
 brew install heroku
