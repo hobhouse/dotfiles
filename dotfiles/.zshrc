@@ -71,17 +71,25 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-rails
-ruby
-bundler
-autojump
-zsh-autosuggestions
-rbenv
-zsh-syntax-highlighting
-yarn
-thefuck
-dotenv
+  rails
+  ruby
+  bundler
+  autojump
+  zsh-autosuggestions
+  rbenv
+  zsh-syntax-highlighting
+  yarn
+  thefuck
+  dotenv
+  autojump
+  alias-finder
+  copydir
+  copyfile
+  jira
+  macos
+  vscode
 )
+alias reload="exec ${SHELL} -l"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,7 +112,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Created by `userpath` on 2020-02-27 09:00:32
 export PATH="$PATH:/Users/jackhobhouse/.local/bin"
-source ~/.dotfiles/lib/zsh-autoenv/autoenv.zsh
 
 eval "$(rbenv init -)"
 export PATH="/usr/local/sbin:$PATH"
@@ -112,4 +119,6 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

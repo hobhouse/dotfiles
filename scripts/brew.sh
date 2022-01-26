@@ -59,8 +59,9 @@ brew install bitwarden-cli
 # brew install trash
 # brew install ffmpeg
 brew install thefuck
+brew install autojump
 # brew install qrencode
-# brew install dockutil
+brew install dockutil
 # brew install starship
 brew install dark-mode
 brew install youtube-dl
