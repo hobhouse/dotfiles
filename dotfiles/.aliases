@@ -87,12 +87,15 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
 
-alias merge_destroy="/Users/jackhobhouse/scripts/merge_and_destroy_pr"
+alias merge_destroy='/Users/jackhobhouse/Projects/Personal/dotfiles/scripts/merge_and_destroy_pr'
 alias t="./run_tests"
 alias rt='rails test'
 alias s="./bin/rails s"
 alias pt="papertrail"
-alias pr_checks="gh pr checks $(hub pr show -f '%I')"
+alias gfm="git fetch origin master:master && git merge master"
+alias gfr="git fetch origin master:master && git rebase master"
+
+# alias pr_checks="gh pr checks $(hub pr show -f '%I')"
 
 alias checkout_pr="/Users/jackhobhouse/Projects/Personal/dotfiles/Raycast/checkout.sh"
 
