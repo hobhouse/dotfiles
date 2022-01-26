@@ -91,6 +91,9 @@ plugins=(git
 )
 alias reload="exec ${SHELL} -l"
 
+# Source .aliases
+source $HOME/.aliases
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

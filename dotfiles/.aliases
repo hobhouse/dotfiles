@@ -6,7 +6,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias h="history"
-alias j="jobs"
+# alias j="jobs"
 alias e="exit"
 
 # Shorten commonly typed
@@ -92,10 +92,9 @@ alias t="./run_tests"
 alias rt='rails test'
 alias s="./bin/rails s"
 alias pt="papertrail"
-alias pr_checks="gh pr checks $(hub pr show -f '%I')"
+# alias pr_checks="gh pr checks $(hub pr show -f '%I')"
 
-alias pr_checks="gh pr checks $(hub pr show -f '%I')"
-alias checkout_pr="/Users/jackhobhouse/scripts/checkout-pr.sh"
+alias checkout_pr="/Users/jackhobhouse/Projects/Personal/dotfiles/Raycast/checkout.sh"
 
 alias vetpost="j vetpost; code . ; stree ; open -a iTerm . ; bundle ; yarn ; rails db:migrate ; s"
 alias weekly-download="heroku run rails export:shipments -a vetpost-production | grep -v DEBUG | tee Shipments-$(date "+%d-%m-%y").csv"
