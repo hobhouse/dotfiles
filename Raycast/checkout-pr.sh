@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env sh
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -19,7 +19,7 @@ URL=$(pbpaste)
 
 PR_NUMBER=${URL##*/}
 
-command="\"gh pr checkout 1234 \""
+command="\"gh pr checkout $PR_NUMBER \""
 
 
 echo "{ \"command\": \"workbench.action.terminal.sendSequence\", \"args\": { \"text\": $command } }" | websocat ws://localhost:3710
