@@ -21,4 +21,4 @@ PR_NUMBER=${URL##*/}
 
 set -e
 
-cd /Users/jackhobhouse/slp2/ && gh pr checkout $PR_NUMBER && code .
+cd /Users/jackhobhouse/Projects/Work/slp2 && gh pr checkout $PR_NUMBER && code .
