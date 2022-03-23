@@ -83,13 +83,12 @@ plugins=(git
   dotenv
   autojump
   alias-finder
-  copydir
+  copypath
   copyfile
   jira
   macos
   vscode
 )
-alias reload="exec ${SHELL} -l"
 
 # Source .aliases
 source $HOME/.aliases

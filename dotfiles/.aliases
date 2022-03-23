@@ -10,7 +10,7 @@ alias h="history"
 alias e="exit"
 
 # Shorten commonly typed
-alias s="spotify"
+# alias s="spotify"
 alias ss="spring stop"
 alias bert="bundle exec rails test"
 alias ytd="youtube-dl"
@@ -99,6 +99,7 @@ alias gfr="git fetch origin master:master && git rebase master"
 
 alias checkout_pr="/Users/jackhobhouse/Projects/Personal/dotfiles/Raycast/checkout.sh"
 
+alias slp2-server="/Users/jackhobhouse/Projects/Personal/dotfiles/Raycast/slp2-servercopy.applescript"
 alias vetpost="j vetpost; code . ; stree ; open -a iTerm . ; bundle ; yarn ; rails db:migrate ; s"
 alias weekly-download="heroku run rails export:shipments -a vetpost-production | grep -v DEBUG | tee Shipments-$(date "+%d-%m-%y").csv"
 alias weekly-download-2="heroku run rails export:payments -a vetpost-production | grep -v DEBUG | tee Payments-$(date "+%d-%m-%y").csv && sleep 20 && zip -P indigolighthouse1998 Payments-$(date "+%d-%m-%y").zip  Payments-$(date "+%d-%m-%y").csv"
