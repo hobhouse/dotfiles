@@ -94,6 +94,8 @@ alias s="./bin/rails s"
 alias pt="papertrail"
 alias gfm="git fetch origin master:master && git merge master"
 alias gfr="git fetch origin master:master && git rebase master"
+alias gps='git push --set-upstream origin $(git_current_branch)'
+alias send_it='gfr && git push -u'
 
 # alias pr_checks="gh pr checks $(hub pr show -f '%I')"
 

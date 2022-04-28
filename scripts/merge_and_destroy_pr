@@ -1,11 +1,14 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # Delete PR app and merge PR
-if [ -z "$1" ]
+
+PR_NUM=$(hub pr show -f '%I')
+
+if [ -z "$PR_NUM" ]
 then
-  read -p "GitHub PR number?? " pr_number
+  read -r -p "GitHub PR number?? " pr_number
 else
-  pr_number=$1
+  pr_number=$PR_NUM
 fi
 
 gh pr checks "$pr_number"

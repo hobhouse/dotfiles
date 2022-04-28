@@ -1108,8 +1108,12 @@
 	<integer>333</integer>
 	<key>QuickPasteDelayBetweenCalls</key>
 	<real>0.022956840693950653</real>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>4</integer>
 	<key>TimeBetweenTips</key>
 	<real>604800</real>
 	<key>VisualIndicatorForEsc</key>

@@ -9,7 +9,7 @@
 # @raycast.icon 🤖
 
 # Documentation:
-# @raycast.description Take the PR number from Chrome and use GH to checkout in VScode (BROKEN)
+# @raycast.description Take the PR number from Chrome and use GH to checkout in VScode
 # @raycast.author Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
@@ -19,7 +19,6 @@ URL=$(pbpaste)
 
 PR_NUMBER=${URL##*/}
 
-command="\"gh pr checkout $PR_NUMBER \""
+set -e
 
-
-echo "{ \"command\": \"workbench.action.terminal.sendSequence\", \"args\": { \"text\": $command } }" | websocat ws://localhost:3710
+cd /Users/jackhobhouse/Projects/Work/slp2 && gh pr checkout $PR_NUMBER && code .
