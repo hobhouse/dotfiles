@@ -17,7 +17,11 @@ osascript -e 'tell application "Google Chrome" to get URL of active tab of first
 
 URL=$(pbpaste)
 
-PR_NUMBER=${URL##*/}
+# if [[ "$URL" == *"files"* ]]; then
+#   gsub("/files", "", $URL)
+# fi
+
+PR_NUMBER=${URL//[!0-9]/}
 
 set -e
 

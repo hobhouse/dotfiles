@@ -25,6 +25,7 @@ tell application "iTerm"
 
 	--Send a command to the first tab
 	tell current session of tab 1 of current window
+		write text "j slp"
 		write text "yarn"
 		write text "yarn dev"
 	end tell

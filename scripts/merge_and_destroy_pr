@@ -15,7 +15,7 @@ gh pr checks "$pr_number"
 gh pr view "$pr_number"
 
 while true; do
-  read -p "Do you want to continue? " yn
+  read -p -r "Do you want to continue? " yn
   case $yn in
     [Yy]* ) gh pr merge "$pr_number" --merge --admin;heroku apps:destroy -a indigo-shop-pr-"$pr_number" --confirm indigo-shop-pr-"$pr_number"; break;;
     [Nn]* ) exit;;
