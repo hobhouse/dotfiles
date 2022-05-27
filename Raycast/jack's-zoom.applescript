@@ -15,19 +15,24 @@
 
 set the clipboard to "https://indigolighthouse.zoom.us/j/5449113923?pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09"
 
+tell application "Chrome" to activate
 
-tell application "OtherApp" to activate
+tell application "slack" to activate
+
+tell application "System Events" to keystroke "v" using command down
+
+tell application "zoom.us" to activate
 
 tell application "System Events"
+    tell process "zoom.us"
 
-          tell process "OtherApp"
+        set StartMeeting to menu item "Start Meeting" of menu "zoom.us" of menu bar 0
 
+        repeat while not enabled of StartMeeting
+            delay 0.25
+        end repeat
 
-keystroke "v" usingcommand down
+        click StartMeeting
 
-
-keystroke return
-
-            end tell
-
-  end tell
+    end tell
+end tell
