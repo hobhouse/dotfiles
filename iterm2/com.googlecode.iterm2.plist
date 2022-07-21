@@ -1202,6 +1202,8 @@
 	<integer>333</integer>
 	<key>QuickPasteDelayBetweenCalls</key>
 	<real>0.022956840693950653</real>
+	<key>SetCookie</key>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>SoundForEsc</key>
