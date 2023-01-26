@@ -23,6 +23,8 @@ tell application "System Events" to keystroke "v" using command down
 
 tell application "zoom.us" to activate
 
+delay 0.5
+
 tell application "System Events"
     tell process "zoom.us"
 

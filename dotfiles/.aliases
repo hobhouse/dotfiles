@@ -55,6 +55,11 @@ alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 # Clean up LaunchServices to remove duplicates in the “Open With” menu
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
 
+# Force puma to quit when ctrl+c doesn't work
+alias kill-puma="pkill -9 -f puma"
+
+# Force CalendarAgent to quit when it stops sysncing
+alias kill-calendar="pkill -9 CalendarAgent"
 
 # Trim new lines and copy to clipboard
 alias c="tr -d '\n' | pbcopy"
