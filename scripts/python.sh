@@ -1,21 +1,13 @@
 #!/bin/sh
 
-echo "==> 📜 Installing latest Python with pyenv"
+echo "==> 📜 Installing latest Node with asdf"
 
-# Initialize pyenv to run now
-eval "$(pyenv init -)"
+# Install the Node plugin https://github.com/asdf-vm/asdf-nodejs
+asdf plugin add nodejs
 
-# Install xxenv-latest pyenv plugin
-git clone https://github.com/momo-lab/xxenv-latest.git "$(pyenv root)"/plugins/xxenv-latest
+# Install the latest Node version
+asdf install nodejs latest
 
-# Skip slow steps in CI
-if [ -z "${CI}" ]; then
+echo "==> 📜 Setting latest Node as shell default"
 
-  # Install latest Python and set as global
-  pyenv latest install
-  pyenv latest global
-
-fi
-
-# Install shims for Python binaries known to pyenv
-pyenv rehash
+asdf global nodejs latest

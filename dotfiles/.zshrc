@@ -115,12 +115,16 @@ source $ZSH/oh-my-zsh.sh
 # Created by `userpath` on 2020-02-27 09:00:32
 export PATH="$PATH:/Users/jackhobhouse/.local/bin"
 
-eval "$(rbenv init -)"
+
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 export NVM_DIR=~/.nvm
 
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+export PATH="$HOME/.asdf/shims:$PATH"
+. /usr/local/opt/asdf/libexec/asdf.sh
+
+# Source asdf-direnv
+source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
