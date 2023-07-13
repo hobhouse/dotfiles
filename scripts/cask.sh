@@ -8,7 +8,8 @@ brew install --cask the-unarchiver
 brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
-brew install --cask google-drive
+brew install --cask onedrive
+# brew install --cask google-drive
 brew install --cask appcleaner
 # brew install --cask 1password
 # brew install --cask gpg-suite
@@ -21,7 +22,7 @@ brew install --cask cyberduck
 brew install --cask bitwarden
 brew install --cask dbeaver-community
 brew install --cask spotify
-brew install --cask discord
+# brew install --cask discord
 brew install --cask aws-vault
 #brew install --cask signal
 brew install --cask slack
