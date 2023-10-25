@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Play Discover Weekly
+# @raycast.title Play Release Radar
 # @raycast.mode silent
 
 # Optional parameters:
@@ -12,6 +12,6 @@
 # @raycast.author Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
-property uri: "spotify:playlist:37i9dQZEVXcS0qByLuPolD"
+property uri: "spotify:playlist:37i9dQZEVXbnckuCqnR5vi"
 
 tell application "Spotify" to play track uri

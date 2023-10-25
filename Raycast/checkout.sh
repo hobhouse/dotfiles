@@ -19,10 +19,17 @@ URL=$(pbpaste)
 
 # if [[ "$URL" == *"files"* ]]; then
 #   gsub("/files", "", $URL)
-# fi
 
+BRANCH_NAME=$(echo "$URL" | sed -E 's#^.*/compare/master\.\.\.(.*)$#\1#')
 PR_NUMBER=${URL//[!0-9]/}
 
 set -e
 
-cd /Users/jackhobhouse/Projects/Work/slp2 && gh pr checkout $PR_NUMBER && code .
+if [ -n "$PR_NUMBER" ]; then
+  cd /Users/jackhobhouse/Projects/Work/slp2 && gh pr checkout "$PR_NUMBER" && code .
+elif [ -n "$BRANCH_NAME" ]; then
+  cd /Users/jackhobhouse/Projects/Work/slp2 && git checkout "$BRANCH_NAME" && code .
+else
+  echo "No PR number or branch name found in the URL."
+  exit 1
+fi
