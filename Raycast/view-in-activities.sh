@@ -62,7 +62,7 @@ url=$(pbpaste)
 last_string_after_slash=$(getLastStringAfterSlash "$url")
 last_string_between_slashes=$(getLastStringBetweenSlashes "$url")
 date_six_months_ago=$(getSixMonthsAgoDate)
-date_six_months_ago=$(echo "$date_six_months_ago" $echo "12T")
+date_six_months_ago=$(echo "$date_six_months_ago"$echo"TOO")
 
 
-open "https://www.indigoshoprx.co.uk/en-GB/activities?q%5Bcreated_at_gteq%5D=$date_six_months_ago%3A18%3A39&q%5Bcreated_at_lteq%5D=&q%5Brequest_id_eq%5D=&q%5Baudited_changes%5D=&q%5Bclient_id_eq%5D=&q%5Bwhodunnit_cont%5D=&q%5Bitem_subtype_eq%5D=$last_string_between_slashes&q%5Bitem_id_eq%5D=$last_string_after_slash&button="
+echo "https://www.indigoshoprx.co.uk/en-GB/activities?q%5Bcreated_at_gteq%5D=$date_six_months_ago%3A00%3A34&q%5Bcreated_at_lteq%5D=&q%5Brequest_id_eq%5D=&q%5Baudited_changes%5D=&q%5Bclient_id_eq%5D=&q%5Bwhodunnit_cont%5D=&q%5Bitem_subtype_eq%5D=$last_string_between_slashes&q%5Bitem_id_eq%5D=$last_string_after_slash&button="
