@@ -68,6 +68,7 @@ brew install dark-mode
 brew install youtube-dl
 brew install speedtest-cli
 brew install homeassistant-cli
+brew install monitorcontrol
 
 # Fonts
 # brew tap homebrew/cask-fonts
