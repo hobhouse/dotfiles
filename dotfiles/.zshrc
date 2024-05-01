@@ -128,3 +128,6 @@ export PATH="$HOME/.asdf/shims:$PATH"
 
 # Source asdf-direnv
 source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
+export PATH=$PATH:/Users/jackhobhouse/Projects/Work/sdo

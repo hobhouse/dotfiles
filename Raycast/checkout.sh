@@ -13,6 +13,8 @@
 # @raycast.author Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
+OLD_COPY=$(pbpaste)
+
 osascript -e 'tell application "Google Chrome" to get URL of active tab of first window' | pbcopy
 
 URL=$(pbpaste)
@@ -26,10 +28,15 @@ PR_NUMBER=${URL//[!0-9]/}
 set -e
 
 if [ -n "$PR_NUMBER" ]; then
+
   cd /Users/jackhobhouse/Projects/Work/slp2 && gh pr checkout "$PR_NUMBER" && code .
 elif [ -n "$BRANCH_NAME" ]; then
   cd /Users/jackhobhouse/Projects/Work/slp2 && git checkout "$BRANCH_NAME" && code .
 else
+  echo "$OLD_COPY" | pbcopy
   echo "No PR number or branch name found in the URL."
+
   exit 1
 fi
+
+echo "$OLD_COPY" | pbcopy

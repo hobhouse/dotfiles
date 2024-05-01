@@ -114,3 +114,6 @@ alias weekly-download-2="heroku run rails export:payments -a vetpost-production 
 alias weekly-lock="zip -P indigolighthouse1998 Payments-$(date "+%d-%m-%y").zip  Payments-$(date "+%d-%m-%y").csv"
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update -g; omz update'
 alias update-certificates='export DNSIMPLE_TOKEN=ypWmu4KMeutPs4E0z0CZHiugAfWc75vm && scripts/update-heroku-certificates'
+
+alias compare_branch='/Users/jackhobhouse/projects/personal/dotfiles/scripts/compare_branch_on_github.sh'
+alias push_compare='git push -u && compare_branch'

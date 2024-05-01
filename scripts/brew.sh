@@ -69,6 +69,7 @@ brew install youtube-dl
 brew install speedtest-cli
 brew install homeassistant-cli
 brew install monitorcontrol
+brew install grandperspective
 
 # Fonts
 # brew tap homebrew/cask-fonts
