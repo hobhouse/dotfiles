@@ -23,7 +23,6 @@ brew install --cask bitwarden
 brew install --cask dbeaver-community
 brew install --cask spotify
 # brew install --cask discord
-brew install --cask aws-vault
 #brew install --cask signal
 brew install --cask slack
 brew install --cask zoom
@@ -47,3 +46,4 @@ brew install --cask google-chrome
 brew install --cask sourcetree
 #brew install --cask tableplus
 #brew install --cask transmit
+brew install --cask cursor

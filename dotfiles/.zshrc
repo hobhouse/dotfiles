@@ -131,3 +131,8 @@ source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
 export PATH=$PATH:/Users/jackhobhouse/Projects/Work/sdo
+export PATH=$PATH:/Users/jackhobhouse/go
+
+function kms_decrypt() {
+    aws kms decrypt --region eu-west-1 --ciphertext-blob $1 --query Plaintext --output text | base64 -d
+}

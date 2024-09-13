@@ -98,10 +98,14 @@ alias rt='rails test'
 alias rtf='rails test:failed'
 alias s="OPEN_EMAILS_IN_BROWSER=true ./bin/rails s"
 alias pt="papertrail"
-alias gfm="git fetch origin master:master && git merge master"
-alias gfr="git fetch origin master:master && git rebase master"
+alias gfm='git fetch origin $(git_main_branch):$(git_main_branch) && git merge $(git_main_branch)'
+alias gfr='git fetch origin $(git_main_branch):$(git_main_branch) && git rebase $(git_main_branch)'
 alias gps='git push --set-upstream origin $(git_current_branch)'
+alias checkout_last='git checkout -'
 alias send_it='gfr && git push -u && scripts/links branch'
+alias restore_eu='TARGET_APP=local FROM_APP=production_eu  rails db:restore'
+alias restore_us='TARGET_APP=local FROM_APP=production_us  rails db:restore'
+
 
 # alias pr_checks="gh pr checks $(hub pr show -f '%I')"
 

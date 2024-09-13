@@ -6,9 +6,11 @@ remote_url=$(git remote get-url origin | sed 's/git@github.com:/https:\/\/github
 # Get the name of the current Git branch
 branch_name=$(git branch --show-current)
 
+default_branch_name=$(git rev-parse --abbrev-ref origin/HEAD | sed 's/origin\///')
+
 # Open the URL in default web browser
 echo "Opening $remote_url/tree/$branch_name"
 
-open "$remote_url/compare/master.../$branch_name"
+open "$remote_url/compare/$default_branch_name...$branch_name"
 
 # You can save this script in a file, make it executable with `chmod +x <filename>`, and then run it in your Git repository to open the corresponding URL in your default web browser.
