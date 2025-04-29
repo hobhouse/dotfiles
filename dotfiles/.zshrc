@@ -122,7 +122,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 export NVM_DIR=~/.nvm
 
-export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
 export PATH="$HOME/.asdf/shims:$PATH"
 . /usr/local/opt/asdf/libexec/asdf.sh
 

@@ -1202,10 +1202,12 @@
 	<integer>140</integer>
 	<key>QuickPasteDelayBetweenCalls</key>
 	<real>0.053771708160638809</real>
+	<key>Selection Respects Soft Boundaries</key>
+	<true/>
 	<key>SetCookie</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>

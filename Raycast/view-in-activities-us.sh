@@ -1,14 +1,14 @@
 #!/bin/bash
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title View in activities
+# @raycast.title View in activities - US
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 🤖
 
 # Documentation:
-# @raycast.description View the activitiy logs from the object being viewed
+# @raycast.description View the activity logs from the object being viewed - US
 # @raycast.author Jack Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
@@ -102,4 +102,4 @@ last_string_between_slashes=$(getLastStringBetweenSlashes "$url")
 date_six_months_ago=$(getSixMonthsAgoDate)
 date_six_months_ago=$(echo "$date_six_months_ago"$echo"TOO")
 
-open "https://www.indigoshoprx.co.uk/en-GB/activities?q%5Bcreated_at_gteq%5D=$date_six_months_ago%3A00%3A34&q%5Bcreated_at_lteq%5D=&q%5Brequest_id_eq%5D=&q%5Baudited_changes%5D=&q%5Bclient_id_eq%5D=&q%5Bwhodunnit_cont%5D=&q%5Bitem_subtype_eq%5D=$last_string_between_slashes&q%5Bitem_id_eq%5D=$last_string_after_slash&button="
+open "https://www.indigoshoprx.com/en-GB/activities?q%5Bcreated_at_gteq%5D=$date_six_months_ago%3A00%3A34&q%5Bcreated_at_lteq%5D=&q%5Brequest_id_eq%5D=&q%5Baudited_changes%5D=&q%5Bclient_id_eq%5D=&q%5Bwhodunnit_cont%5D=&q%5Bitem_subtype_eq%5D=$last_string_between_slashes&q%5Bitem_id_eq%5D=$last_string_after_slash&button="
