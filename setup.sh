@@ -16,6 +16,7 @@
 . ./scripts/cask.sh
 . ./scripts/mas.sh
 . ./scripts/macos.sh
+. ./scripts/clippy.sh
 . ./scripts/restore_settings.sh
 
 echo "Follow this link to insatll the latest version of Clippy - https://github.com/ian4hu/Clipy/releases/latest"
