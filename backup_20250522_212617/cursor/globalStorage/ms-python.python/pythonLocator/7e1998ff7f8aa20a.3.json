@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "/usr/local/opt/python@3.10/bin/python3.10",
+    "prefix": "/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+    "version": "3.10.14.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/usr/local/bin/python3.10",
+      "/usr/local/opt/python@3.10/bin/python3.10"
+    ]
+  },
+  "symlinks": [
+    [
+      "/usr/local/bin/python3.10",
+      {
+        "secs_since_epoch": 1725439177,
+        "nanos_since_epoch": 65179395
+      },
+      {
+        "secs_since_epoch": 1710884776,
+        "nanos_since_epoch": 0
+      }
+    ],
+    [
+      "/usr/local/opt/python@3.10/bin/python3.10",
+      {
+        "secs_since_epoch": 1725439177,
+        "nanos_since_epoch": 65179395
+      },
+      {
+        "secs_since_epoch": 1710884776,
+        "nanos_since_epoch": 0
+      }
+    ]
+  ]
+}

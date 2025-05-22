@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "/usr/local/opt/python@3.12/bin/python3.12",
+    "prefix": "/usr/local/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+    "version": "3.12.5.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/usr/local/bin/python3",
+      "/usr/local/opt/python@3.12/bin/python3.12"
+    ]
+  },
+  "symlinks": [
+    [
+      "/usr/local/bin/python3",
+      {
+        "secs_since_epoch": 1725439004,
+        "nanos_since_epoch": 735757442
+      },
+      {
+        "secs_since_epoch": 1722971329,
+        "nanos_since_epoch": 0
+      }
+    ],
+    [
+      "/usr/local/opt/python@3.12/bin/python3.12",
+      {
+        "secs_since_epoch": 1725439004,
+        "nanos_since_epoch": 735757442
+      },
+      {
+        "secs_since_epoch": 1722971329,
+        "nanos_since_epoch": 0
+      }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+May 27, 2022 1:19:41 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.20.0
+ - Native Image
+ - VM Version : 17.0.2
+ - Git [Branch 6e1aecb3182fe156f699aec0bbff0e196c1bd7fb] 6e1aecb - [maven-release-plugin] prepare release 0.20.0
+May 27, 2022 1:19:41 PM org.eclipse.lemminx.uriresolver.CacheResourcesManager lambda$downloadResource$0
+INFO: Downloading http://www.apple.com/DTDs/PropertyList-1.0.dtd to /Users/jackhobhouse/.lemminx/cache/http/www.apple.com/DTDs/PropertyList-1.0.dtd...
+May 27, 2022 1:19:41 PM org.eclipse.lemminx.uriresolver.CacheResourcesManager lambda$downloadResource$0
+INFO: Downloaded http://www.apple.com/DTDs/PropertyList-1.0.dtd to /Users/jackhobhouse/.lemminx/cache/http/www.apple.com/DTDs/PropertyList-1.0.dtd in 29ms

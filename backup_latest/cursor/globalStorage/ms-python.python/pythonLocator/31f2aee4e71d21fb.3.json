@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "prefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+    "version": "3.9.6.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/usr/bin/python3"
+    ]
+  },
+  "symlinks": [
+    [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      {
+        "secs_since_epoch": 1742452843,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1742452843,
+        "nanos_since_epoch": 0
+      }
+    ],
+    [
+      "/usr/bin/python3",
+      {
+        "secs_since_epoch": 1746337162,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1746337162,
+        "nanos_since_epoch": 0
+      }
+    ]
+  ]
+}

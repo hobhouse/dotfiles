@@ -11,10 +11,12 @@
 . ./scripts/ruby.sh
 . ./scripts/iterm2.sh
 . ./scripts/vscode.sh
+. ./scripts/cursor.sh
 # . ./scripts/sublime.sh
 . ./scripts/cask.sh
 . ./scripts/mas.sh
 . ./scripts/macos.sh
+. ./scripts/restore_settings.sh
 
 echo "Follow this link to insatll the latest version of Clippy - https://github.com/ian4hu/Clipy/releases/latest"
 

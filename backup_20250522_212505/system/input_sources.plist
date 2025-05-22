@@ -1,0 +1,43 @@
+{
+    AppleCurrentKeyboardLayoutInputSourceID = "com.apple.keylayout.British";
+    AppleDictationAutoEnable = 1;
+    AppleEnabledInputSources =     (
+                {
+            InputSourceKind = "Keyboard Layout";
+            "KeyboardLayout ID" = 2;
+            "KeyboardLayout Name" = British;
+        },
+                {
+            "Bundle ID" = "com.apple.CharacterPaletteIM";
+            InputSourceKind = "Non Keyboard Input Method";
+        },
+                {
+            "Bundle ID" = "com.apple.PressAndHold";
+            InputSourceKind = "Non Keyboard Input Method";
+        },
+                {
+            "Bundle ID" = "com.apple.inputmethod.ironwood";
+            InputSourceKind = "Non Keyboard Input Method";
+        },
+                {
+            "Bundle ID" = "com.apple.inputmethod.EmojiFunctionRowItem";
+            InputSourceKind = "Non Keyboard Input Method";
+        }
+    );
+    AppleFnUsageType = 2;
+    AppleSelectedInputSources =     (
+                {
+            InputSourceKind = "Keyboard Layout";
+            "KeyboardLayout ID" = 2;
+            "KeyboardLayout Name" = British;
+        },
+                {
+            "Bundle ID" = "com.apple.PressAndHold";
+            InputSourceKind = "Non Keyboard Input Method";
+        },
+                {
+            "Bundle ID" = "com.apple.inputmethod.EmojiFunctionRowItem";
+            InputSourceKind = "Non Keyboard Input Method";
+        }
+    );
+}

@@ -1,0 +1,38 @@
+Feb 15, 2022 5:40:59 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.19.0
+ - Native Image
+ - VM Version : 1.8.0_272
+ - Git [Branch 4150c96f5a4552202019f4df41e1cb71ac6facea] 4150c96 - [maven-release-plugin] prepare release 0.19.0
+Feb 15, 2022 5:41:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 15, 2022 5:49:50 PM org.eclipse.lemminx.commons.ParentProcessWatcher run
+WARNING: Parent process stopped running, forcing server exit
+Feb 15, 2022 5:54:20 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.19.0
+ - Native Image
+ - VM Version : 1.8.0_272
+ - Git [Branch 4150c96f5a4552202019f4df41e1cb71ac6facea] 4150c96 - [maven-release-plugin] prepare release 0.19.0
+Feb 15, 2022 5:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Feb 15, 2022 5:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Feb 15, 2022 5:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Feb 15, 2022 5:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Feb 15, 2022 6:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Feb 15, 2022 6:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Feb 15, 2022 6:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Feb 15, 2022 6:01:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Feb 15, 2022 6:05:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Feb 15, 2022 6:05:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47

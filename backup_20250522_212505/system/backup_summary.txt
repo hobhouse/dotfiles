@@ -1,0 +1,33 @@
+System Settings Backup Summary
+=============================
+Backup completed at: Thu 22 May 2025 21:25:17 BST
+macOS Version: 15.5
+Hardware Model: MacBookPro16,1
+
+Backed up system preferences:
+backup_20250522_212505/system/airport.plist
+backup_20250522_212505/system/bluetooth_trackpad.plist
+backup_20250522_212505/system/custom_keyboard_shortcuts.plist
+backup_20250522_212505/system/dock.plist
+backup_20250522_212505/system/finder.plist
+backup_20250522_212505/system/input_sources.plist
+backup_20250522_212505/system/keyboard_shortcuts.plist
+backup_20250522_212505/system/keyboard.plist
+backup_20250522_212505/system/menu_bar_battery.plist
+backup_20250522_212505/system/menu_bar_clock.plist
+backup_20250522_212505/system/mouse.plist
+backup_20250522_212505/system/network.plist
+backup_20250522_212505/system/screensaver.plist
+backup_20250522_212505/system/sound.plist
+backup_20250522_212505/system/spaces.plist
+backup_20250522_212505/system/system_preferences.plist
+backup_20250522_212505/system/trackpad.plist
+backup_20250522_212505/system/universal_access.plist
+
+Backed up system files:
+backup_20250522_212505/system/backup_summary.txt
+backup_20250522_212505/system/hardware_info.txt
+backup_20250522_212505/system/login_items.txt
+backup_20250522_212505/system/power_settings.txt
+backup_20250522_212505/system/system_version.txt
+backup_20250522_212505/system/timemachine_destinations.txt

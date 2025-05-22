@@ -1,0 +1,80 @@
+dotfiles/.aliases
+backup_20250522_212324/brew_packages.txt
+backup_20250522_212324/rbenv_version
+backup_20250522_212324/gitconfig
+backup_20250522_212324/vscode_settings.json
+backup_20250522_212324/ssh/config
+backup_20250522_212324/brew_casks.txt
+backup_20250522_212324/gitignore_global
+backup_20250522_212324/gem_packages.txt
+backup_20250522_212324/iterm2_settings.plist
+README.md
+iterm2/com.googlecode.iterm2.plist
+backup_20250522_212324/vscode_keybindings.json
+backup_20250522_212324/backup_summary.txt
+Raycast/play-release-radar.applescript
+backup_20250522_212324/pip_packages.txt
+Raycast/restart-calendar.sh
+Raycast/view-in-activities-us.sh
+Raycast/slp2-server.applescript
+Raycast/Raycast 2024-09-17 12.28.22.rayconfig
+Raycast/Raycast 2023-12-21 14.08.41.rayconfig
+Raycast/puma-kill.sh
+Raycast/open-in-safari.sh
+Raycast/Raycast 2024-11-20 10.06.46.rayconfig
+Raycast/jack's-zoom.applescript
+Raycast/play-discover-weekly.applescript
+Raycast/copy-current-song.applescript
+Raycast/view-in-activities.sh
+Raycast/update-iterm-theme.sh
+Raycast/slp2-dev.applescript
+Raycast/Raycast 2023-06-23 17.30.15.rayconfig
+Raycast/Raycast 2022-01-25 16.22.58.rayconfig
+Raycast/airpods.sh
+Raycast/like-playing-song.applescript
+Raycast/slp2-dev.sh
+Raycast/Raycast 2022-01-25 10.40.25.rayconfig
+Raycast/Raycast 2023-10-25 12.23.27.rayconfig
+Raycast/Raycast 2025-04-29 10.01.38.rayconfig
+Raycast/checkout.sh
+Raycast/dotfiles.sh
+scripts/iterm2.sh
+scripts/mute-zoom.applescript
+scripts/go.sh
+scripts/python.sh
+scripts/checkout.sh
+scripts/node.sh
+scripts/brew.sh
+scripts/backup_settings.sh
+scripts/cask.sh
+scripts/compare_branch_on_github.sh
+scripts/checkout-pr.sh
+scripts/sublime.sh
+scripts/play-discover-weekly.applescript
+scripts/macos.sh
+scripts/shell.sh
+scripts/merge_and_destroy_pr
+scripts/vscode.sh
+scripts/mas.sh
+scripts/ruby.sh
+.github/workflows/lint.yml
+.github/workflows/scripts.yml
+clippy/snippets.xml
+Raycast/test-shell-.sh
+.vscode/settings.json
+Raycast/checkout-1.sh
+vscode/settings.json
+vscode/keybindings.json
+vscode/syncLocalSettings.json
+backup_20250522_212324/zshrc
+dotfiles/.huskyrc
+backup_20250522_212324/npm_packages.txt
+dotfiles/.gitconfig
+dotfiles/.hushlogin
+dotfiles/.zshrc
+dotfiles/.gitignore_global
+dotfiles/.editorconfig
+dotfiles/.curlrc
+dotfiles/starship.toml
+dotfiles/.wgetrc
+setup.sh

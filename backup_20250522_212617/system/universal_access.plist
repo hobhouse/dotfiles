@@ -1,0 +1,277 @@
+{
+    AssistiveControlType = 2;
+    History =     {
+        MouseKeys =         (
+                        {
+                Date = "2024-11-01 09:08:42";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-11-15 09:05:58";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-11-15 09:05:59";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-11-18 16:17:31";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-11-18 16:27:34";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-11-27 15:39:12";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-12-02 09:23:46";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-12-05 09:15:17";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-12-06 09:32:16";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-12-10 09:04:29";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2024-12-20 09:00:35";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-01-03 12:02:26";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-01-06 10:48:46";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-01-15 08:52:50";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-01-21 08:38:21";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-06 08:58:55";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-10 08:59:21";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-10 09:26:33";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-12 09:04:43";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-12 11:02:13";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-18 11:52:01";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-19 09:27:06";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-24 09:33:21";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-02-27 14:50:29";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-04 07:06:23";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-05 08:19:50";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-10 09:14:47";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-10 09:14:52";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-12 08:05:16";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-18 00:07:31";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-18 00:08:05";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-18 00:08:05";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-18 00:18:00";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-24 09:04:10";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-03-31 11:50:30";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-08 09:59:14";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-11 09:07:19";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-15 09:15:59";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-22 09:05:25";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-28 09:31:56";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-28 09:31:57";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-30 12:50:51";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-04-30 12:50:52";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-02 09:40:10";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-12 11:08:16";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-14 09:01:11";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-20 09:20:59";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-20 09:21:23";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-20 09:21:23";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2025-05-20 09:21:24";
+                Reason = Reset;
+                State = 0;
+            }
+        );
+    };
+    closeViewHotkeysEnabled = 0;
+    closeViewZoomDisplayID = 0;
+    closeViewZoomFactor = 1;
+    closeViewZoomFactorBeforeTermination = 1;
+    "com.apple.custommenu.apps" =     (
+        "com.apple.mail"
+    );
+    dwellEnabled = 0;
+    dwellHideUITimeout = 15;
+    keyboardAccessCommandMap = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000da };
+    keyboardAccessFocusRingTimeout = 15;
+    login = 0;
+    selectedTab = 12;
+    sessionChange = 0;
+    slowKey = 0;
+    slowKeyDelay = 1;
+    stickyKey = 0;
+    switchOnOffKey = 0;
+    useStickyKeysShortcutKeys = 0;
+    virtualKeyboardOnOff = 0;
+}

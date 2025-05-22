@@ -1,0 +1,94 @@
+{
+    SpacesDisplayConfiguration =     {
+        "Management Data" =         {
+            Age = "24532.57049962401";
+            "Management Mode" = 1;
+            Monitors =             (
+                                {
+                    "Current Space" =                     {
+                        ManagedSpaceID = 1;
+                        id64 = 1;
+                        type = 0;
+                        uuid = "";
+                        wsid = 1;
+                    };
+                    "Display Identifier" = Main;
+                    Spaces =                     (
+                                                {
+                            ManagedSpaceID = 1;
+                            id64 = 1;
+                            type = 0;
+                            uuid = "";
+                            wsid = 1;
+                        }
+                    );
+                },
+                                {
+                    "Collapsed Space" =                     {
+                        ManagedSpaceID = 117;
+                        WindowManagerInfo =                         {
+                            windowSets =                             {
+                            };
+                        };
+                        id64 = 117;
+                        type = 0;
+                        uuid = "F6394F58-BD0B-4631-B9F0-2DAC66623E23";
+                    };
+                    "Display Identifier" = "AB3E922C-0D56-B222-4DAF-13C241023489";
+                }
+            );
+            Primary =             {
+                CreatedCount = 5;
+                DeletedCount = 5;
+                LifetimeEntryCount = 5;
+                LifetimeMax = "1093.882307390013";
+                LifetimeMin = "42.87198609599727";
+                LifetimeSum = "2429.551622068073";
+                PersistedCount = 0;
+            };
+            Secondary =             {
+                CreatedCount = 2;
+                DeletedCount = 2;
+                LifetimeEntryCount = 2;
+                LifetimeMax = "1.76806921500247";
+                LifetimeMin = "1.418499574996531";
+                LifetimeSum = "3.186568789999001";
+                PersistedCount = 0;
+            };
+        };
+        "Space Properties" =         (
+                        {
+                name = "";
+                windows =                 (
+                    140,
+                    134,
+                    6881,
+                    9029,
+                    9018,
+                    687,
+                    6755,
+                    8995,
+                    8923,
+                    8175,
+                    5244,
+                    87,
+                    88,
+                    7887,
+                    7882,
+                    115,
+                    112,
+                    109,
+                    5242,
+                    5243,
+                    5290,
+                    123,
+                    5391,
+                    81,
+                    5359,
+                    5051,
+                    73
+                );
+            }
+        );
+    };
+}

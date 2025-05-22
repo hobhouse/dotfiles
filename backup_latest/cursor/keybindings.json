@@ -1,0 +1,150 @@
+// Toggle between terminal and editor focus
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus || "
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "openInFinder.open",
+        "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "htmlRelatedLinks.openFile",
+      "args": {
+        "file": "${workspaceFolder}/${relativeFile:find=^.*?/(.*?)(\\.rb)$:replace=$1_test.rb}",
+        "method": "vscode.open",
+        "viewColumn": "split"
+      },
+      "when": "editorTextFocus && editorLangId == ruby"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "rails test:failed \u000D" }
+    },
+    {
+        "key": "l alt+cmd",
+        "command": "extension.runOpenSpec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+o",
+        "command": "-extension.runOpenSpec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "extension.runFileOnRspec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "-extension.runFileOnRspec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+o",
+        "command": "extension.runOpenSpec"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+    },
+    {
+        "key": "cmd+k cmd+c",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+r cmd+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k cmd+u",
+        "command": "editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+r cmd+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "composer.startComposerPrompt",
+        "when": "composerIsEnabled"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-composer.startComposerPrompt",
+        "when": "composerIsEnabled"
+    },
+    {
+        "key": "shift+cmd+n shift+cmd+n",
+        "command": "addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+n shift+cmd+n",
+        "command": "aichat.insertselectionintochat"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-aichat.insertselectionintochat"
+    },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-aichat.newchataction"
+    },
+    {
+        "key": "cmd+; cmd+;",
+        "command": "aichat.newchataction"
+    },
+    {
+        "key": "shift+cmd+; shift+cmd+;",
+        "command": "workbench.action.chat.addSelectedFilesToWorkingSet"
+    }
+]

@@ -1,0 +1,71 @@
+// Toggle between terminal and editor focus
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus || "
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "openInFinder.open",
+        "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "htmlRelatedLinks.openFile",
+      "args": {
+        "file": "${workspaceFolder}/${relativeFile:find=^.*?/(.*?)(\\.rb)$:replace=$1_test.rb}",
+        "method": "vscode.open",
+        "viewColumn": "split"
+      },
+      "when": "editorTextFocus && editorLangId == ruby"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "rails test:failed \u000D" }
+    },
+    {
+        "key": "l alt+cmd",
+        "command": "extension.runOpenSpec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+o",
+        "command": "-extension.runOpenSpec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "extension.runFileOnRspec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "-extension.runFileOnRspec",
+        "when": "editorLangId == 'ruby'"
+    },
+    {
+        "key": "alt+cmd+o",
+        "command": "extension.runOpenSpec"
+    }
+]

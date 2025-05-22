@@ -66,3 +66,31 @@ Things to backup to an external drive if moving from an old machine:
 - `~/.zsh_history`
 - [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
 - [Exported](https://localwp.com/help-docs/getting-started/how-to-export-a-wordpress-site-on-local/) Local sites
+
+### Backup and Restore Scripts
+
+The repository includes several scripts to help manage the transfer of settings and sensitive files between machines:
+
+#### General Settings
+
+- `backup_settings.sh`: Backs up general configuration files and settings
+- `restore_settings.sh`: Restores the backed up settings to the new machine
+
+To use these scripts:
+1. On the old machine, run `./backup_settings.sh` to create a backup
+2. Transfer the backup directory to the new machine
+3. On the new machine, run `./restore_settings.sh` to restore the settings
+
+#### Sensitive Files
+
+For secure transfer of sensitive files (SSH keys, GPG keys, etc.):
+
+- `backup_keys.sh`: Securely backs up sensitive keys and certificates
+- `restore_keys.sh`: Restores the sensitive keys to the new machine
+
+⚠️ **Important Security Notes:**
+- These scripts handle sensitive information and should be used with caution
+- The backup directory is automatically excluded from version control via `.gitignore_global`
+- SSL certificates are explicitly excluded from the backup process
+- Always verify the integrity of transferred files
+- Consider using a secure transfer method (like a password-protected USB drive) for the sensitive files

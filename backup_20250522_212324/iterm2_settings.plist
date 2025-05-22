@@ -1,0 +1,3125 @@
+{
+    AboutToPasteTabsWithCancel = 1;
+    "AboutToPasteTabsWithCancel_selection" = 0;
+    AlternateMouseScroll = 1;
+    AppleAntiAliasingThreshold = 1;
+    ApplePressAndHoldEnabled = 0;
+    AppleScrollAnimationEnabled = 0;
+    AppleSmoothFixedFontsSizeThreshold = 1;
+    AppleWindowTabbingMode = manual;
+    "Default Arrangement Name" = "Arrangement 1";
+    "Default Bookmark Guid" = "82980CCB-5570-49EB-A51B-67285EE60B95";
+    DoubleClickPerformsSmartSelection = 1;
+    EnableAPIServer = 1;
+    GlobalKeyMap =     {
+        "0x19-0x60000" =         {
+            Action = 39;
+            Text = "";
+        };
+        "0x9-0x40000" =         {
+            Action = 32;
+            Text = "";
+        };
+        "0xf700-0x300000" =         {
+            Action = 7;
+            Text = "";
+        };
+        "0xf701-0x300000" =         {
+            Action = 6;
+            Text = "";
+        };
+        "0xf703-0x320000" =         {
+            Action = 34;
+            Text = "";
+        };
+        "0xf729-0x100000" =         {
+            Action = 5;
+            Text = "";
+        };
+        "0xf72b-0x100000" =         {
+            Action = 4;
+            Text = "";
+        };
+        "0xf72c-0x100000" =         {
+            Action = 9;
+            Text = "";
+        };
+        "0xf72c-0x20000" =         {
+            Action = 9;
+            Text = "";
+        };
+        "0xf72d-0x100000" =         {
+            Action = 8;
+            Text = "";
+        };
+        "0xf72d-0x20000" =         {
+            Action = 8;
+            Text = "";
+        };
+    };
+    HapticFeedbackForEsc = 0;
+    HotkeyMigratedFromSingleToMulti = 1;
+    IRMemory = 4;
+    LoadPrefsFromCustomFolder = 1;
+    NSNavLastRootDirectory = "~/Documents";
+    NSNavPanelExpandedSizeForSaveMode = "{800, 448}";
+    NSOverlayScrollersFallBackForAccessoryViews = 0;
+    NSQuotedKeystrokeBinding = "";
+    NSRepeatCountBinding = "";
+    NSScrollAnimationEnabled = 0;
+    NSScrollViewShouldScrollUnderTitlebar = 0;
+    "NSSplitView Subview Frames NSColorPanelSplitView" =     (
+        "0.000000, 0.000000, 224.000000, 258.000000, NO, NO",
+        "0.000000, 259.000000, 224.000000, 48.000000, NO, NO"
+    );
+    "NSToolbar Configuration com.apple.NSColorPanel" =     {
+        "TB Is Shown" = 1;
+    };
+    "NSWindow Frame NSColorPanel" = "0 81 224 278 0 0 1792 1095 ";
+    "NSWindow Frame NSNavPanelAutosaveName" = "-1680 725 800 448 -2560 0 2560 1415 ";
+    "NSWindow Frame SUStatusFrame" = "-1480 1264 400 135 -2560 304 2560 1415 ";
+    "NSWindow Frame SUUpdateAlert" = "-1630 894 700 628 -2560 304 2560 1415 ";
+    "NSWindow Frame iTerm Window 0" = "-2432 351 2304 1297 -2560 304 2560 1415 ";
+    "NSWindow Frame iTerm Window 1" = "-2560 560 2110 1159 -2560 304 2560 1415 ";
+    "NSWindow Frame iTerm Window 2" = "0 71 1792 1024 0 0 1792 1095 ";
+    "NeverWarnAboutShortLivedSessions_82980CCB-5570-49EB-A51B-67285EE60B95" = 1;
+    "NeverWarnAboutShortLivedSessions_82980CCB-5570-49EB-A51B-67285EE60B95_selection" = 0;
+    "New Bookmarks" =     (
+                {
+            "ASCII Anti Aliased" = 1;
+            "Ambiguous Double Width" = 0;
+            "Ansi 0 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = 0;
+            };
+            "Ansi 1 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = "0.7333333492279053";
+            };
+            "Ansi 10 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.3333333432674408";
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = "0.3333333432674408";
+            };
+            "Ansi 11 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.3333333432674408";
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = 1;
+            };
+            "Ansi 12 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = "0.3333333432674408";
+                "Red Component" = "0.3333333432674408";
+            };
+            "Ansi 13 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = "0.3333333432674408";
+                "Red Component" = 1;
+            };
+            "Ansi 14 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = "0.3333333432674408";
+            };
+            "Ansi 15 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = 1;
+            };
+            "Ansi 2 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = 0;
+            };
+            "Ansi 3 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = "0.7333333492279053";
+            };
+            "Ansi 4 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = 0;
+            };
+            "Ansi 5 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = "0.7333333492279053";
+            };
+            "Ansi 6 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = 0;
+            };
+            "Ansi 7 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = "0.7333333492279053";
+            };
+            "Ansi 8 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.3333333432674408";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.3333333432674408";
+                "Red Component" = "0.3333333432674408";
+            };
+            "Ansi 9 Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.3333333432674408";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.3333333432674408";
+                "Red Component" = 1;
+            };
+            "BM Growl" = 1;
+            "Background Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = 0;
+            };
+            "Background Image Location" = "";
+            "Blinking Cursor" = 0;
+            Blur = 0;
+            "Bold Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = 1;
+            };
+            "Character Encoding" = 4;
+            "Close Sessions On End" = 1;
+            Columns = 300;
+            Command = "";
+            "Cursor Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = "0.7333333492279053";
+            };
+            "Cursor Text Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = 1;
+                "Red Component" = 1;
+            };
+            "Custom Command" = No;
+            "Custom Directory" = Recycle;
+            "Default Bookmark" = No;
+            Description = Default;
+            "Disable Window Resizing" = 1;
+            "Flashing Bell" = 0;
+            "Foreground Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = "0.7333333492279053";
+                "Color Space" = Calibrated;
+                "Green Component" = "0.7333333492279053";
+                "Red Component" = "0.7333333492279053";
+            };
+            Guid = "82980CCB-5570-49EB-A51B-67285EE60B95";
+            "Horizontal Spacing" = 1;
+            "Idle Code" = 0;
+            "Jobs to Ignore" =             (
+                rlogin,
+                ssh,
+                slogin,
+                telnet
+            );
+            "Keyboard Map" =             {
+                "0x2a-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = "*";
+                };
+                "0x2b-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = "+";
+                };
+                "0x2d-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = "-";
+                };
+                "0x2d-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1f;
+                };
+                "0x2e-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = ".";
+                };
+                "0x2f-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = "/";
+                };
+                "0x3-0x200000-0x0" =                 {
+                    Action = 11;
+                    Text = 0xd;
+                };
+                "0x30-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 0;
+                };
+                "0x31-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 1;
+                };
+                "0x32-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 2;
+                };
+                "0x32-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x00;
+                };
+                "0x33-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 3;
+                };
+                "0x33-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1b;
+                };
+                "0x34-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 4;
+                };
+                "0x34-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1c;
+                };
+                "0x35-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 5;
+                };
+                "0x35-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1d;
+                };
+                "0x36-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 6;
+                };
+                "0x36-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1e;
+                };
+                "0x37-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 7;
+                };
+                "0x37-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1f;
+                };
+                "0x38-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 8;
+                };
+                "0x38-0x40000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x7f;
+                };
+                "0x39-0x200000-0x0" =                 {
+                    Action = 12;
+                    Text = 9;
+                };
+                "0x7f-0x100000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x15;
+                };
+                "0x7f-0x80000-0x0" =                 {
+                    Action = 11;
+                    Text = "0x1b 0x7f";
+                };
+                "0xf700-0x220000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2A";
+                };
+                "0xf700-0x240000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5A";
+                };
+                "0xf700-0x260000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;6A";
+                };
+                "0xf700-0x280000" =                 {
+                    Action = 11;
+                    Text = "0x1b 0x1b 0x5b 0x41";
+                };
+                "0xf701-0x220000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2B";
+                };
+                "0xf701-0x240000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5B";
+                };
+                "0xf701-0x260000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;6B";
+                };
+                "0xf701-0x280000" =                 {
+                    Action = 11;
+                    Text = "0x1b 0x1b 0x5b 0x42";
+                };
+                "0xf702-0x220000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2D";
+                };
+                "0xf702-0x240000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5D";
+                };
+                "0xf702-0x260000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;6D";
+                };
+                "0xf702-0x280000-0x0" =                 {
+                    Action = 10;
+                    Text = b;
+                };
+                "0xf702-0x2a0000" =                 {
+                    Action = 45;
+                    Text = 1;
+                };
+                "0xf702-0x300000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x1;
+                };
+                "0xf702-0x380000-0x7b" =                 {
+                    Action = 2;
+                    Label = "";
+                    Text = "";
+                    Version = 1;
+                };
+                "0xf703-0x220000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2C";
+                };
+                "0xf703-0x240000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5C";
+                };
+                "0xf703-0x260000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;6C";
+                };
+                "0xf703-0x280000-0x0" =                 {
+                    Action = 10;
+                    Text = f;
+                };
+                "0xf703-0x2a0000" =                 {
+                    Action = 46;
+                    Text = 1;
+                };
+                "0xf703-0x300000-0x0" =                 {
+                    Action = 11;
+                    Text = 0x5;
+                };
+                "0xf703-0x380000-0x7c" =                 {
+                    Action = 0;
+                    Label = "";
+                    Text = "";
+                    Version = 1;
+                };
+                "0xf704-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2P";
+                };
+                "0xf705-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2Q";
+                };
+                "0xf706-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2R";
+                };
+                "0xf707-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2S";
+                };
+                "0xf708-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[15;2~";
+                };
+                "0xf709-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[17;2~";
+                };
+                "0xf70a-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[18;2~";
+                };
+                "0xf70b-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[19;2~";
+                };
+                "0xf70c-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[20;2~";
+                };
+                "0xf70d-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[21;2~";
+                };
+                "0xf70e-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[23;2~";
+                };
+                "0xf70f-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[24;2~";
+                };
+                "0xf728-0x0-0x0" =                 {
+                    Action = 11;
+                    Text = 0x4;
+                };
+                "0xf728-0x80000-0x0" =                 {
+                    Action = 10;
+                    Text = d;
+                };
+                "0xf729-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2H";
+                };
+                "0xf729-0x40000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5H";
+                };
+                "0xf72b-0x20000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;2F";
+                };
+                "0xf72b-0x40000-0x0" =                 {
+                    Action = 10;
+                    Text = "[1;5F";
+                };
+                "0xf739-0x0-0x0" =                 {
+                    Action = 13;
+                    Text = "";
+                };
+            };
+            "Mouse Reporting" = 1;
+            Name = Default;
+            "Non Ascii Font" = "Monaco 12";
+            "Non-ASCII Anti Aliased" = 1;
+            "Normal Font" = "Monaco 12";
+            "Option Key Sends" = 2;
+            "Prompt Before Closing 2" = 0;
+            "Right Option Key Sends" = 0;
+            Rows = 65;
+            Screen = "-1";
+            "Scrollback Lines" = 0;
+            "Selected Text Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 0;
+                "Color Space" = Calibrated;
+                "Green Component" = 0;
+                "Red Component" = 0;
+            };
+            "Selection Color" =             {
+                "Alpha Component" = 1;
+                "Blue Component" = 1;
+                "Color Space" = Calibrated;
+                "Green Component" = "0.8353000283241272";
+                "Red Component" = "0.7098000049591064";
+            };
+            "Semantic History" =             {
+                action = editor;
+                editor = "com.microsoft.VSCode";
+                text = "";
+            };
+            "Send Code When Idle" = 0;
+            Shortcut = "";
+            "Show Status Bar" = 1;
+            "Silence Bell" = 0;
+            "Status Bar Layout" =             {
+                "advanced configuration" =                 {
+                    algorithm = 0;
+                    font = ".AppleSystemUIFont 12";
+                };
+                components =                 (
+                                        {
+                        class = iTermStatusBarMemoryUtilizationComponent;
+                        configuration =                         {
+                            knobs =                             {
+                                "base: compression resistance" = 1;
+                                "base: priority" = 5;
+                                "shared text color" =                                 {
+                                    "Alpha Component" = 1;
+                                    "Blue Component" = "0.63";
+                                    "Color Space" = sRGB;
+                                    "Green Component" = "0.63";
+                                    "Red Component" = "0.9";
+                                };
+                            };
+                            "layout advanced configuration dictionary value" =                             {
+                                algorithm = 0;
+                                font = ".AppleSystemUIFont 12";
+                            };
+                        };
+                    },
+                                        {
+                        class = iTermStatusBarCPUUtilizationComponent;
+                        configuration =                         {
+                            knobs =                             {
+                                "base: compression resistance" = 1;
+                                "base: priority" = 5;
+                                "shared text color" =                                 {
+                                    "Alpha Component" = 1;
+                                    "Blue Component" = "0.63";
+                                    "Color Space" = sRGB;
+                                    "Green Component" = "0.9";
+                                    "Red Component" = "0.765";
+                                };
+                            };
+                            "layout advanced configuration dictionary value" =                             {
+                                algorithm = 0;
+                                font = ".AppleSystemUIFont 12";
+                            };
+                        };
+                    },
+                                        {
+                        class = iTermStatusBarGitComponent;
+                        configuration =                         {
+                            knobs =                             {
+                                "base: compression resistance" = 1;
+                                "base: priority" = 5;
+                                iTermStatusBarGitComponentPollingIntervalKey = 2;
+                                maxwidth = inf;
+                                minwidth = 0;
+                                "shared text color" =                                 {
+                                    "Alpha Component" = 1;
+                                    "Blue Component" = "0.9";
+                                    "Color Space" = sRGB;
+                                    "Green Component" = "0.9";
+                                    "Red Component" = "0.63";
+                                };
+                            };
+                            "layout advanced configuration dictionary value" =                             {
+                                algorithm = 0;
+                                font = ".AppleSystemUIFont 12";
+                            };
+                        };
+                    },
+                                        {
+                        class = iTermStatusBarSearchFieldComponent;
+                        configuration =                         {
+                            knobs =                             {
+                                "base: compression resistance" = 1;
+                                "base: priority" = 5;
+                                "shared text color" =                                 {
+                                    "Alpha Component" = 1;
+                                    "Blue Component" = "0.9";
+                                    "Color Space" = sRGB;
+                                    "Green Component" = "0.63";
+                                    "Red Component" = "0.765";
+                                };
+                            };
+                            "layout advanced configuration dictionary value" =                             {
+                                algorithm = 0;
+                                font = ".AppleSystemUIFont 12";
+                            };
+                        };
+                    }
+                );
+            };
+            "Sync Title" = 0;
+            Tags =             (
+            );
+            "Terminal Type" = "xterm-256color";
+            Transparency = 0;
+            "Unlimited Scrollback" = 1;
+            "Use Bold Font" = 1;
+            "Use Bright Bold" = 1;
+            "Use Italic Font" = 1;
+            "Use Non-ASCII Font" = 0;
+            "Vertical Spacing" = 1;
+            "Visual Bell" = 1;
+            "Window Type" = 0;
+            "Working Directory" = "/Users/jackhobhouse";
+        }
+    );
+    NoSyncAllAppVersions =     (
+        "3.5.5",
+        "3.4.19",
+        "3.5.3",
+        "3.4.18",
+        "3.5.11",
+        "3.4.23",
+        "3.5.10",
+        "3.4.16",
+        "3.4.22",
+        "3.5.4",
+        "3.5.2",
+        "3.4.15",
+        "3.5.0",
+        "3.5.13"
+    );
+    NoSyncConfirmRunOpenFile = 1;
+    "NoSyncConfirmRunOpenFile_selection" = 0;
+    "NoSyncFrame_SharedPreferences" =     {
+        screenFrame = "{{0, 0}, {1792, 1120}}";
+        topLeft = "{435, 817}";
+    };
+    NoSyncHaveUsedCopyMode = 1;
+    NoSyncIgnoreSystemWindowRestoration = 1;
+    NoSyncInstallationId = "7D6E7162-843D-4775-B0D4-02868F4C1D53";
+    NoSyncLastOSVersion = "Version 15.5 (Build 24F74)";
+    NoSyncLastSystemPythonVersionRequirement = "1.17";
+    NoSyncLastTipTime = "763895756.464412";
+    NoSyncLaunchExperienceControllerRunCount = 223;
+    NoSyncNextAnnoyanceTime = "738663758.653836";
+    NoSyncOnboardingWindowHasBeenShown34 = 1;
+    NoSyncPermissionToShowTip = 1;
+    NoSyncPersistentRateLimitedUpdates =     {
+        CheckForUpdatedPythonRuntime = "769594898.667485";
+    };
+    NoSyncRecordedVariables =     {
+        0 =         (
+                        {
+                isTerminal = 1;
+                name = "";
+                nonterminalContext = 0;
+            }
+        );
+        1 =         (
+                        {
+                isTerminal = 1;
+                name = presentationName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxRole;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = lastCommand;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = profileName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = showingAlternateScreen;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = id;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = termid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = homeDirectory;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = jobName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = columns;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "tab.tmuxWindowTitle";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = uname;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = processTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxClientName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = hostname;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = selectionLength;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = mouseInfo;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = path;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = shell;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = triggerName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = parentSession;
+                nonterminalContext = 1;
+            },
+                        {
+                isTerminal = 1;
+                name = terminalIconName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowPane;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxStatusRight;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = mouseReportingMode;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = name;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = iterm2;
+                nonterminalContext = 4;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxPaneTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = rows;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowPaneIndex;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tty;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = autoLogId;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = badge;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = username;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = logFilename;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "tab.tmuxWindowName";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "parentSession.parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = tab;
+                nonterminalContext = 2;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxStatusLeft;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = selection;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = bellCount;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "effective_root_pid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = autoNameFormat;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "parentSession.parentSession.parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = sshIntegrationLevel;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = autoName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = terminalWindowName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = creationTimeString;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = commandLine;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = applicationKeypad;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = jobPid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = pid;
+                nonterminalContext = 0;
+            }
+        );
+        16 =         (
+                        {
+                isTerminal = 1;
+                name = style;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.jobPid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = frame;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.pid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.termid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.parentSession.parentSession.parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.mouseInfo";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.terminalWindowName";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.terminalIconName";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = isHotkeyWindow;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = currentTab;
+                nonterminalContext = 2;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.processTitle";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.window";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = id;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.name";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = titleOverride;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = number;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.path";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.commandLine";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.hostname";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.tty";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.username";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = iterm2;
+                nonterminalContext = 4;
+            },
+                        {
+                isTerminal = 1;
+                name = titleOverrideFormat;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.parentSession.parentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.effective_root_pid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.jobName";
+                nonterminalContext = 0;
+            }
+        );
+        2 =         (
+                        {
+                isTerminal = 1;
+                name = "currentSession.commandLine";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = title;
+                nonterminalContext = 1;
+            },
+                        {
+                isTerminal = 1;
+                name = title;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = window;
+                nonterminalContext = 16;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.tty";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.jobName";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.name";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.processTitle";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = window;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = id;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = titleOverride;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.username";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.termid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.path";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = titleOverrideFormat;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.hostname";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = iterm2;
+                nonterminalContext = 4;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentSession.pid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindow;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = currentSession;
+                nonterminalContext = 1;
+            },
+                        {
+                isTerminal = 1;
+                name = currentSession;
+                nonterminalContext = 0;
+            }
+        );
+        4 =         (
+                        {
+                isTerminal = 1;
+                name = pid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = localhostName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = effectiveTheme;
+                nonterminalContext = 0;
+            }
+        );
+    };
+    NoSyncRemoveDeprecatedKeyMappings = 3;
+    NoSyncRestoreWindowsCount = 0;
+    "NoSyncSaveDocumentAsPathSet_saveDocumentAs:" = 1;
+    NoSyncTipOfTheDayEligibilityBeganTime = "664816826.207128";
+    NoSyncTipOfTheDayOffset = "{1368, 178}";
+    NoSyncTipsToNotShow =     (
+        0087,
+        0030,
+        0007,
+        0053,
+        0076,
+        0099,
+        0019,
+        0042,
+        0111,
+        0065,
+        0088,
+        0031,
+        0008,
+        0100,
+        0054,
+        0077,
+        0020,
+        0112,
+        0043,
+        0066,
+        0089,
+        0009,
+        0032,
+        0101,
+        0055,
+        0078,
+        0021,
+        0113,
+        0044,
+        0067,
+        0010,
+        0090,
+        0102,
+        0033,
+        0056,
+        0079,
+        0022,
+        0114,
+        0045,
+        0068,
+        0011,
+        0091,
+        0103,
+        0034,
+        0080,
+        0057,
+        0000,
+        0023,
+        0115,
+        0046,
+        0069,
+        0012,
+        0092,
+        0104,
+        0035,
+        0081,
+        0058,
+        0001,
+        0024,
+        0047,
+        0070,
+        0093,
+        0013,
+        0105,
+        0036,
+        0059,
+        0002,
+        0082,
+        0025,
+        0048,
+        0071,
+        0094,
+        0014,
+        0106,
+        0060,
+        0037,
+        0083,
+        0003,
+        000,
+        0026,
+        0049,
+        0072,
+        0095,
+        0015,
+        0107,
+        0038,
+        0061,
+        0084,
+        0004,
+        0027,
+        0050,
+        0073,
+        0096,
+        0016,
+        0108,
+        0039,
+        0062,
+        0085,
+        0005,
+        0028,
+        0051,
+        0074,
+        0097,
+        0017,
+        0040,
+        0109,
+        0063,
+        0086,
+        0006,
+        0052,
+        0029,
+        0098,
+        0018,
+        0041,
+        0110,
+        0064,
+        0116
+    );
+    NoSyncUserHasSelectedCommand = 1;
+    NoSyncWindowRestoresWorkspaceAtLaunch = 0;
+    OpenArrangementAtStartup = 1;
+    OpenNoWindowsAtStartup = 0;
+    PMPrintingExpandedStateForPrint2 = 0;
+    PasteTabToStringTabStopSize = 4;
+    PointerActions =     {
+        "Button,1,1,," =         {
+            Action = kContextMenuPointerAction;
+        };
+        "Button,2,1,," =         {
+            Action = kPasteFromClipboardPointerAction;
+        };
+        "Gesture,ThreeFingerSwipeDown,," =         {
+            Action = kPrevWindowPointerAction;
+        };
+        "Gesture,ThreeFingerSwipeLeft,," =         {
+            Action = kPrevTabPointerAction;
+        };
+        "Gesture,ThreeFingerSwipeRight,," =         {
+            Action = kNextTabPointerAction;
+        };
+        "Gesture,ThreeFingerSwipeUp,," =         {
+            Action = kNextWindowPointerAction;
+        };
+    };
+    PrefsCustomFolder = "/Users/jackhobhouse/projects/personal/dotfiles/iterm2";
+    "Print In Black And White" = 1;
+    QuickPasteBytesPerCall = 140;
+    QuickPasteDelayBetweenCalls = "0.05377170816063881";
+    SUEnableAutomaticChecks = 1;
+    SUFeedAlternateAppNameKey = iTerm;
+    SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=65";
+    SUHasLaunchedBefore = 1;
+    SULastCheckTime = "2025-05-22 11:42:13 +0000";
+    SUSendProfileInfo = 0;
+    SUUpdateGroupIdentifier = 3677738897;
+    SUUpdateRelaunchingMarker = 0;
+    "Selection Respects Soft Boundaries" = 1;
+    SetCookie = 1;
+    ShowFullScreenTabBar = 1;
+    SoundForEsc = 0;
+    TabStyleWithAutomaticOption = 4;
+    TimeBetweenTips = 604800;
+    VisualIndicatorForEsc = 0;
+    "Window Arrangements" =     {
+        "Arrangement 1" =         (
+                        {
+                "Desired Columns" = 80;
+                "Desired Rows" = 25;
+                "Has Toolbelt" = 0;
+                Height = 792;
+                "Hide After Opening" = 0;
+                "Hiding Toolbelt Should Resize Window" = 1;
+                "Is Hotkey Window" = 0;
+                "Saved Window Type" = 0;
+                Screen = 1;
+                "Selected Tab Index" = 0;
+                Tabs =                 (
+                                        {
+                        Root =                         {
+                            Subviews =                             (
+                                                                {
+                                    "Is Active" = 1;
+                                    Session =                                     {
+                                        Bookmark =                                         {
+                                            "ASCII Anti Aliased" = 1;
+                                            "Ambiguous Double Width" = 0;
+                                            "Ansi 0 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 1 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 10 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 11 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 12 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 13 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 14 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 15 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 2 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 3 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 4 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 5 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 6 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 7 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 8 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 9 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "BM Growl" = 1;
+                                            "Background Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Background Image Location" = "";
+                                            "Blinking Cursor" = 0;
+                                            Blur = 0;
+                                            "Bold Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Character Encoding" = 4;
+                                            "Close Sessions On End" = 1;
+                                            Columns = 80;
+                                            Command = "";
+                                            "Cursor Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Cursor Text Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Custom Command" = No;
+                                            "Custom Directory" = No;
+                                            "Default Bookmark" = No;
+                                            Description = Default;
+                                            "Disable Window Resizing" = 1;
+                                            "Flashing Bell" = 0;
+                                            "Foreground Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            Guid = "82980CCB-5570-49EB-A51B-67285EE60B95";
+                                            "Horizontal Spacing" = 1;
+                                            "Idle Code" = 0;
+                                            "Jobs to Ignore" =                                             (
+                                                rlogin,
+                                                ssh,
+                                                slogin,
+                                                telnet
+                                            );
+                                            "Keyboard Map" =                                             {
+                                                "0x2d-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x32-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x00;
+                                                };
+                                                "0x33-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1b;
+                                                };
+                                                "0x34-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1c;
+                                                };
+                                                "0x35-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1d;
+                                                };
+                                                "0x36-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1e;
+                                                };
+                                                "0x37-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x38-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x7f;
+                                                };
+                                                "0xf700-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2A";
+                                                };
+                                                "0xf700-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5A";
+                                                };
+                                                "0xf700-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6A";
+                                                };
+                                                "0xf700-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x41";
+                                                };
+                                                "0xf701-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2B";
+                                                };
+                                                "0xf701-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5B";
+                                                };
+                                                "0xf701-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6B";
+                                                };
+                                                "0xf701-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x42";
+                                                };
+                                                "0xf702-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2D";
+                                                };
+                                                "0xf702-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5D";
+                                                };
+                                                "0xf702-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6D";
+                                                };
+                                                "0xf702-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x44";
+                                                };
+                                                "0xf703-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2C";
+                                                };
+                                                "0xf703-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5C";
+                                                };
+                                                "0xf703-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6C";
+                                                };
+                                                "0xf703-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x43";
+                                                };
+                                                "0xf704-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2P";
+                                                };
+                                                "0xf705-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2Q";
+                                                };
+                                                "0xf706-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2R";
+                                                };
+                                                "0xf707-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2S";
+                                                };
+                                                "0xf708-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[15;2~";
+                                                };
+                                                "0xf709-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[17;2~";
+                                                };
+                                                "0xf70a-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[18;2~";
+                                                };
+                                                "0xf70b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[19;2~";
+                                                };
+                                                "0xf70c-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[20;2~";
+                                                };
+                                                "0xf70d-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[21;2~";
+                                                };
+                                                "0xf70e-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[23;2~";
+                                                };
+                                                "0xf70f-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[24;2~";
+                                                };
+                                                "0xf729-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2H";
+                                                };
+                                                "0xf729-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5H";
+                                                };
+                                                "0xf72b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2F";
+                                                };
+                                                "0xf72b-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5F";
+                                                };
+                                            };
+                                            "Mouse Reporting" = 1;
+                                            Name = Default;
+                                            "Non Ascii Font" = "Monaco 12";
+                                            "Non-ASCII Anti Aliased" = 1;
+                                            "Normal Font" = "Monaco 12";
+                                            "Option Key Sends" = 0;
+                                            "Prompt Before Closing 2" = 0;
+                                            "Right Option Key Sends" = 0;
+                                            Rows = 25;
+                                            Screen = "-1";
+                                            "Scrollback Lines" = 1000;
+                                            "Selected Text Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Selection Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.8353000283241272";
+                                                "Red Component" = "0.7098000049591064";
+                                            };
+                                            "Semantic History" =                                             {
+                                                action = editor;
+                                                editor = "com.microsoft.VSCode";
+                                                text = "";
+                                            };
+                                            "Send Code When Idle" = 0;
+                                            Shortcut = "";
+                                            "Silence Bell" = 0;
+                                            "Sync Title" = 0;
+                                            Tags =                                             (
+                                            );
+                                            "Terminal Type" = "xterm-256color";
+                                            Transparency = 0;
+                                            "Unlimited Scrollback" = 0;
+                                            "Use Bold Font" = 1;
+                                            "Use Bright Bold" = 1;
+                                            "Use Italic Font" = 1;
+                                            "Use Non-ASCII Font" = 0;
+                                            "Vertical Spacing" = 1;
+                                            "Visual Bell" = 1;
+                                            "Window Type" = 0;
+                                            "Working Directory" = "/Users/jackhobhouse";
+                                        };
+                                        "Bookmark Name" = Default;
+                                        Columns = 179;
+                                        Commands =                                         (
+                                        );
+                                        Directories =                                         (
+                                            "/Users/jackhobhouse"
+                                        );
+                                        Environment =                                         {
+                                            PWD = "/Users/jackhobhouse";
+                                        };
+                                        Hosts =                                         (
+                                        );
+                                        "Is UTF-8" = 1;
+                                        Program =                                         {
+                                            Command = "login -fqp \\"jackhobhouse\\"";
+                                            Type = Command;
+                                        };
+                                        Rows = 45;
+                                        "Session Default Name" = Default;
+                                        "Session GUID" = "624F9254-78D1-4841-A747-FECD6A2D6905";
+                                        "Session Name" = "~";
+                                        "Session Window Title" = "jackhobhouse@Jacks-Work-MacBook-Pro: ~";
+                                        "Shell Integration Ever Used" = 0;
+                                        Substitutions =                                         {
+                                            "$$$$" = "$$";
+                                        };
+                                        "Working Directory" = "/Users/jackhobhouse";
+                                    };
+                                    "View Type" = SessionView;
+                                    frame =                                     {
+                                        height = 769;
+                                        width = 1263;
+                                        x = 0;
+                                        y = 0;
+                                    };
+                                }
+                            );
+                            "View Type" = Splitter;
+                            frame =                             {
+                                height = 769;
+                                width = 1263;
+                                x = 0;
+                                y = 0;
+                            };
+                            isVertical = 0;
+                        };
+                    }
+                );
+                TerminalGuid = "pty-4E776DEA-B75D-49BD-A069-9FEB8DD0D4A2";
+                "Toolbelt Proportions" =                 {
+                    proportions =                     (
+                                                {
+                            heightAsFraction = 1;
+                            name = Profiles;
+                        }
+                    );
+                };
+                "Use Transparency" = 1;
+                Width = 1263;
+                "Window Type" = 0;
+                "X Origin" = "-1924";
+                "Y Origin" = 687;
+            }
+        );
+        "Arrangement 2" =         (
+                        {
+                "Desired Columns" = 80;
+                "Desired Rows" = 25;
+                "Has Toolbelt" = 0;
+                Height = 758;
+                "Hide After Opening" = 0;
+                "Hiding Toolbelt Should Resize Window" = 1;
+                "Is Hotkey Window" = 0;
+                "Saved Window Type" = 0;
+                Screen = 1;
+                "Selected Tab Index" = 0;
+                Tabs =                 (
+                                        {
+                        Root =                         {
+                            Subviews =                             (
+                                                                {
+                                    "Is Active" = 1;
+                                    Session =                                     {
+                                        Bookmark =                                         {
+                                            "ASCII Anti Aliased" = 1;
+                                            "Ambiguous Double Width" = 0;
+                                            "Ansi 0 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 1 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 10 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 11 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 12 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 13 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 14 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 15 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 2 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 3 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 4 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 5 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 6 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 7 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 8 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 9 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "BM Growl" = 1;
+                                            "Background Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Background Image Location" = "";
+                                            "Blinking Cursor" = 0;
+                                            Blur = 0;
+                                            "Bold Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Character Encoding" = 4;
+                                            "Close Sessions On End" = 1;
+                                            Columns = 80;
+                                            Command = "";
+                                            "Cursor Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Cursor Text Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Custom Command" = No;
+                                            "Custom Directory" = No;
+                                            "Default Bookmark" = No;
+                                            Description = Default;
+                                            "Disable Window Resizing" = 1;
+                                            "Flashing Bell" = 0;
+                                            "Foreground Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            Guid = "82980CCB-5570-49EB-A51B-67285EE60B95";
+                                            "Horizontal Spacing" = 1;
+                                            "Idle Code" = 0;
+                                            "Jobs to Ignore" =                                             (
+                                                rlogin,
+                                                ssh,
+                                                slogin,
+                                                telnet
+                                            );
+                                            "Keyboard Map" =                                             {
+                                                "0x2d-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x32-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x00;
+                                                };
+                                                "0x33-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1b;
+                                                };
+                                                "0x34-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1c;
+                                                };
+                                                "0x35-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1d;
+                                                };
+                                                "0x36-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1e;
+                                                };
+                                                "0x37-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x38-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x7f;
+                                                };
+                                                "0xf700-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2A";
+                                                };
+                                                "0xf700-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5A";
+                                                };
+                                                "0xf700-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6A";
+                                                };
+                                                "0xf700-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x41";
+                                                };
+                                                "0xf701-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2B";
+                                                };
+                                                "0xf701-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5B";
+                                                };
+                                                "0xf701-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6B";
+                                                };
+                                                "0xf701-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x42";
+                                                };
+                                                "0xf702-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2D";
+                                                };
+                                                "0xf702-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5D";
+                                                };
+                                                "0xf702-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6D";
+                                                };
+                                                "0xf702-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x44";
+                                                };
+                                                "0xf703-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2C";
+                                                };
+                                                "0xf703-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5C";
+                                                };
+                                                "0xf703-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6C";
+                                                };
+                                                "0xf703-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x43";
+                                                };
+                                                "0xf704-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2P";
+                                                };
+                                                "0xf705-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2Q";
+                                                };
+                                                "0xf706-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2R";
+                                                };
+                                                "0xf707-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2S";
+                                                };
+                                                "0xf708-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[15;2~";
+                                                };
+                                                "0xf709-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[17;2~";
+                                                };
+                                                "0xf70a-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[18;2~";
+                                                };
+                                                "0xf70b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[19;2~";
+                                                };
+                                                "0xf70c-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[20;2~";
+                                                };
+                                                "0xf70d-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[21;2~";
+                                                };
+                                                "0xf70e-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[23;2~";
+                                                };
+                                                "0xf70f-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[24;2~";
+                                                };
+                                                "0xf729-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2H";
+                                                };
+                                                "0xf729-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5H";
+                                                };
+                                                "0xf72b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2F";
+                                                };
+                                                "0xf72b-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5F";
+                                                };
+                                            };
+                                            "Mouse Reporting" = 1;
+                                            Name = Default;
+                                            "Non Ascii Font" = "Monaco 12";
+                                            "Non-ASCII Anti Aliased" = 1;
+                                            "Normal Font" = "Monaco 12";
+                                            "Option Key Sends" = 0;
+                                            "Prompt Before Closing 2" = 0;
+                                            "Right Option Key Sends" = 0;
+                                            Rows = 25;
+                                            Screen = "-1";
+                                            "Scrollback Lines" = 1000;
+                                            "Selected Text Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Selection Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.8353000283241272";
+                                                "Red Component" = "0.7098000049591064";
+                                            };
+                                            "Semantic History" =                                             {
+                                                action = editor;
+                                                editor = "com.microsoft.VSCode";
+                                                text = "";
+                                            };
+                                            "Send Code When Idle" = 0;
+                                            Shortcut = "";
+                                            "Silence Bell" = 0;
+                                            "Sync Title" = 0;
+                                            Tags =                                             (
+                                            );
+                                            "Terminal Type" = "xterm-256color";
+                                            Transparency = 0;
+                                            "Unlimited Scrollback" = 0;
+                                            "Use Bold Font" = 1;
+                                            "Use Bright Bold" = 1;
+                                            "Use Italic Font" = 1;
+                                            "Use Non-ASCII Font" = 0;
+                                            "Vertical Spacing" = 1;
+                                            "Visual Bell" = 1;
+                                            "Window Type" = 0;
+                                            "Working Directory" = "/Users/jackhobhouse";
+                                        };
+                                        "Bookmark Name" = Default;
+                                        Columns = 175;
+                                        Commands =                                         (
+                                        );
+                                        Directories =                                         (
+                                            "/Users/jackhobhouse"
+                                        );
+                                        Environment =                                         {
+                                            PWD = "/Users/jackhobhouse";
+                                        };
+                                        Hosts =                                         (
+                                        );
+                                        "Is UTF-8" = 1;
+                                        Program =                                         {
+                                            Command = "login -fqp \\"jackhobhouse\\"";
+                                            Type = Command;
+                                        };
+                                        Rows = 43;
+                                        "Session Default Name" = Default;
+                                        "Session GUID" = "ABFE3A51-CC5A-41A6-A811-0A2557DD2F86";
+                                        "Session Name" = "~";
+                                        "Session Window Title" = "jackhobhouse@Jacks-Work-MacBook-Pro: ~";
+                                        "Shell Integration Ever Used" = 0;
+                                        Substitutions =                                         {
+                                            "$$$$" = "$$";
+                                        };
+                                        "Working Directory" = "/Users/jackhobhouse";
+                                    };
+                                    "View Type" = SessionView;
+                                    frame =                                     {
+                                        height = 735;
+                                        width = 1235;
+                                        x = 0;
+                                        y = 0;
+                                    };
+                                }
+                            );
+                            "View Type" = Splitter;
+                            frame =                             {
+                                height = 735;
+                                width = 1235;
+                                x = 0;
+                                y = 0;
+                            };
+                            isVertical = 0;
+                        };
+                    }
+                );
+                TerminalGuid = "pty-C31DEF3C-2A92-49C9-85EB-C19E6A331715";
+                "Toolbelt Proportions" =                 {
+                    proportions =                     (
+                                                {
+                            heightAsFraction = 1;
+                            name = Profiles;
+                        }
+                    );
+                };
+                "Use Transparency" = 1;
+                Width = 1235;
+                "Window Type" = 0;
+                "X Origin" = "-1873";
+                "Y Origin" = 746;
+            }
+        );
+        "Arrangement 3" =         (
+                        {
+                "Desired Columns" = 80;
+                "Desired Rows" = 25;
+                "Has Toolbelt" = 0;
+                Height = 826;
+                "Hide After Opening" = 0;
+                "Hiding Toolbelt Should Resize Window" = 1;
+                "Is Hotkey Window" = 0;
+                "Saved Window Type" = 0;
+                Screen = 1;
+                "Selected Tab Index" = 0;
+                Tabs =                 (
+                                        {
+                        Root =                         {
+                            Subviews =                             (
+                                                                {
+                                    "Is Active" = 1;
+                                    Session =                                     {
+                                        Bookmark =                                         {
+                                            "ASCII Anti Aliased" = 1;
+                                            "Ambiguous Double Width" = 0;
+                                            "Ansi 0 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 1 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 10 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 11 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 12 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 13 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 14 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 15 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 2 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 3 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 4 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 5 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 6 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 7 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 8 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 9 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "BM Growl" = 1;
+                                            "Background Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Background Image Location" = "";
+                                            "Blinking Cursor" = 0;
+                                            Blur = 0;
+                                            "Bold Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Character Encoding" = 4;
+                                            "Close Sessions On End" = 1;
+                                            Columns = 80;
+                                            Command = "";
+                                            "Cursor Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Cursor Text Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Custom Command" = No;
+                                            "Custom Directory" = No;
+                                            "Default Bookmark" = No;
+                                            Description = Default;
+                                            "Disable Window Resizing" = 1;
+                                            "Flashing Bell" = 0;
+                                            "Foreground Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            Guid = "82980CCB-5570-49EB-A51B-67285EE60B95";
+                                            "Horizontal Spacing" = 1;
+                                            "Idle Code" = 0;
+                                            "Jobs to Ignore" =                                             (
+                                                rlogin,
+                                                ssh,
+                                                slogin,
+                                                telnet
+                                            );
+                                            "Keyboard Map" =                                             {
+                                                "0x2d-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x32-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x00;
+                                                };
+                                                "0x33-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1b;
+                                                };
+                                                "0x34-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1c;
+                                                };
+                                                "0x35-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1d;
+                                                };
+                                                "0x36-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1e;
+                                                };
+                                                "0x37-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x38-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x7f;
+                                                };
+                                                "0xf700-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2A";
+                                                };
+                                                "0xf700-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5A";
+                                                };
+                                                "0xf700-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6A";
+                                                };
+                                                "0xf700-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x41";
+                                                };
+                                                "0xf701-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2B";
+                                                };
+                                                "0xf701-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5B";
+                                                };
+                                                "0xf701-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6B";
+                                                };
+                                                "0xf701-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x42";
+                                                };
+                                                "0xf702-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2D";
+                                                };
+                                                "0xf702-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5D";
+                                                };
+                                                "0xf702-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6D";
+                                                };
+                                                "0xf702-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x44";
+                                                };
+                                                "0xf703-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2C";
+                                                };
+                                                "0xf703-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5C";
+                                                };
+                                                "0xf703-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6C";
+                                                };
+                                                "0xf703-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x43";
+                                                };
+                                                "0xf704-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2P";
+                                                };
+                                                "0xf705-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2Q";
+                                                };
+                                                "0xf706-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2R";
+                                                };
+                                                "0xf707-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2S";
+                                                };
+                                                "0xf708-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[15;2~";
+                                                };
+                                                "0xf709-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[17;2~";
+                                                };
+                                                "0xf70a-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[18;2~";
+                                                };
+                                                "0xf70b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[19;2~";
+                                                };
+                                                "0xf70c-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[20;2~";
+                                                };
+                                                "0xf70d-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[21;2~";
+                                                };
+                                                "0xf70e-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[23;2~";
+                                                };
+                                                "0xf70f-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[24;2~";
+                                                };
+                                                "0xf729-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2H";
+                                                };
+                                                "0xf729-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5H";
+                                                };
+                                                "0xf72b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2F";
+                                                };
+                                                "0xf72b-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5F";
+                                                };
+                                            };
+                                            "Mouse Reporting" = 1;
+                                            Name = Default;
+                                            "Non Ascii Font" = "Monaco 12";
+                                            "Non-ASCII Anti Aliased" = 1;
+                                            "Normal Font" = "Monaco 12";
+                                            "Option Key Sends" = 0;
+                                            "Prompt Before Closing 2" = 0;
+                                            "Right Option Key Sends" = 0;
+                                            Rows = 25;
+                                            Screen = "-1";
+                                            "Scrollback Lines" = 1000;
+                                            "Selected Text Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Selection Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.8353000283241272";
+                                                "Red Component" = "0.7098000049591064";
+                                            };
+                                            "Semantic History" =                                             {
+                                                action = editor;
+                                                editor = "com.microsoft.VSCode";
+                                                text = "";
+                                            };
+                                            "Send Code When Idle" = 0;
+                                            Shortcut = "";
+                                            "Silence Bell" = 0;
+                                            "Sync Title" = 0;
+                                            Tags =                                             (
+                                            );
+                                            "Terminal Type" = "xterm-256color";
+                                            Transparency = 0;
+                                            "Unlimited Scrollback" = 0;
+                                            "Use Bold Font" = 1;
+                                            "Use Bright Bold" = 1;
+                                            "Use Italic Font" = 1;
+                                            "Use Non-ASCII Font" = 0;
+                                            "Vertical Spacing" = 1;
+                                            "Visual Bell" = 1;
+                                            "Window Type" = 0;
+                                            "Working Directory" = "/Users/jackhobhouse";
+                                        };
+                                        "Bookmark Name" = Default;
+                                        Columns = 113;
+                                        Commands =                                         (
+                                        );
+                                        Directories =                                         (
+                                            "/Users/jackhobhouse"
+                                        );
+                                        Environment =                                         {
+                                            PWD = "/Users/jackhobhouse";
+                                        };
+                                        Hosts =                                         (
+                                        );
+                                        "Is UTF-8" = 1;
+                                        Program =                                         {
+                                            Command = "login -fqp \\"jackhobhouse\\"";
+                                            Type = Command;
+                                        };
+                                        Rows = 47;
+                                        "Session Default Name" = Default;
+                                        "Session GUID" = "ABFE3A51-CC5A-41A6-A811-0A2557DD2F86";
+                                        "Session Name" = "~";
+                                        "Session Window Title" = "jackhobhouse@Jacks-Work-MacBook-Pro: ~";
+                                        "Shell Integration Ever Used" = 0;
+                                        Substitutions =                                         {
+                                            "$$$$" = "$$";
+                                        };
+                                        "Working Directory" = "/Users/jackhobhouse";
+                                    };
+                                    "View Type" = SessionView;
+                                    frame =                                     {
+                                        height = 803;
+                                        width = 801;
+                                        x = 0;
+                                        y = 0;
+                                    };
+                                }
+                            );
+                            "View Type" = Splitter;
+                            frame =                             {
+                                height = 803;
+                                width = 801;
+                                x = 0;
+                                y = 0;
+                            };
+                            isVertical = 0;
+                        };
+                    }
+                );
+                TerminalGuid = "pty-C31DEF3C-2A92-49C9-85EB-C19E6A331715";
+                "Toolbelt Proportions" =                 {
+                    proportions =                     (
+                                                {
+                            heightAsFraction = 1;
+                            name = Profiles;
+                        }
+                    );
+                };
+                "Use Transparency" = 1;
+                Width = 801;
+                "Window Type" = 0;
+                "X Origin" = "-2120";
+                "Y Origin" = 769;
+            },
+                        {
+                "Desired Columns" = 80;
+                "Desired Rows" = 25;
+                "Has Toolbelt" = 0;
+                Height = 826;
+                "Hide After Opening" = 0;
+                "Hiding Toolbelt Should Resize Window" = 1;
+                "Is Hotkey Window" = 0;
+                "Saved Window Type" = 0;
+                Screen = 1;
+                "Selected Tab Index" = 0;
+                Tabs =                 (
+                                        {
+                        Root =                         {
+                            Subviews =                             (
+                                                                {
+                                    "Is Active" = 1;
+                                    Session =                                     {
+                                        Bookmark =                                         {
+                                            "ASCII Anti Aliased" = 1;
+                                            "Ambiguous Double Width" = 0;
+                                            "Ansi 0 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 1 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 10 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 11 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 12 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 13 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 14 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 15 Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Ansi 2 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 3 Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 4 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 5 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = 0;
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 6 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = 0;
+                                            };
+                                            "Ansi 7 Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Ansi 8 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = "0.3333333432674408";
+                                            };
+                                            "Ansi 9 Color" =                                             {
+                                                "Blue Component" = "0.3333333432674408";
+                                                "Green Component" = "0.3333333432674408";
+                                                "Red Component" = 1;
+                                            };
+                                            "BM Growl" = 1;
+                                            "Background Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Background Image Location" = "";
+                                            "Blinking Cursor" = 0;
+                                            Blur = 0;
+                                            "Bold Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Character Encoding" = 4;
+                                            "Close Sessions On End" = 1;
+                                            Columns = 80;
+                                            Command = "";
+                                            "Cursor Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            "Cursor Text Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = 1;
+                                                "Red Component" = 1;
+                                            };
+                                            "Custom Command" = No;
+                                            "Custom Directory" = No;
+                                            "Default Bookmark" = No;
+                                            Description = Default;
+                                            "Disable Window Resizing" = 1;
+                                            "Flashing Bell" = 0;
+                                            "Foreground Color" =                                             {
+                                                "Blue Component" = "0.7333333492279053";
+                                                "Green Component" = "0.7333333492279053";
+                                                "Red Component" = "0.7333333492279053";
+                                            };
+                                            Guid = "82980CCB-5570-49EB-A51B-67285EE60B95";
+                                            "Horizontal Spacing" = 1;
+                                            "Idle Code" = 0;
+                                            "Jobs to Ignore" =                                             (
+                                                rlogin,
+                                                ssh,
+                                                slogin,
+                                                telnet
+                                            );
+                                            "Keyboard Map" =                                             {
+                                                "0x2d-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x32-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x00;
+                                                };
+                                                "0x33-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1b;
+                                                };
+                                                "0x34-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1c;
+                                                };
+                                                "0x35-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1d;
+                                                };
+                                                "0x36-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1e;
+                                                };
+                                                "0x37-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x1f;
+                                                };
+                                                "0x38-0x40000" =                                                 {
+                                                    Action = 11;
+                                                    Text = 0x7f;
+                                                };
+                                                "0xf700-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2A";
+                                                };
+                                                "0xf700-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5A";
+                                                };
+                                                "0xf700-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6A";
+                                                };
+                                                "0xf700-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x41";
+                                                };
+                                                "0xf701-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2B";
+                                                };
+                                                "0xf701-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5B";
+                                                };
+                                                "0xf701-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6B";
+                                                };
+                                                "0xf701-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x42";
+                                                };
+                                                "0xf702-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2D";
+                                                };
+                                                "0xf702-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5D";
+                                                };
+                                                "0xf702-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6D";
+                                                };
+                                                "0xf702-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x44";
+                                                };
+                                                "0xf703-0x220000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2C";
+                                                };
+                                                "0xf703-0x240000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5C";
+                                                };
+                                                "0xf703-0x260000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;6C";
+                                                };
+                                                "0xf703-0x280000" =                                                 {
+                                                    Action = 11;
+                                                    Text = "0x1b 0x1b 0x5b 0x43";
+                                                };
+                                                "0xf704-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2P";
+                                                };
+                                                "0xf705-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2Q";
+                                                };
+                                                "0xf706-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2R";
+                                                };
+                                                "0xf707-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2S";
+                                                };
+                                                "0xf708-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[15;2~";
+                                                };
+                                                "0xf709-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[17;2~";
+                                                };
+                                                "0xf70a-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[18;2~";
+                                                };
+                                                "0xf70b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[19;2~";
+                                                };
+                                                "0xf70c-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[20;2~";
+                                                };
+                                                "0xf70d-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[21;2~";
+                                                };
+                                                "0xf70e-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[23;2~";
+                                                };
+                                                "0xf70f-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[24;2~";
+                                                };
+                                                "0xf729-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2H";
+                                                };
+                                                "0xf729-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5H";
+                                                };
+                                                "0xf72b-0x20000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;2F";
+                                                };
+                                                "0xf72b-0x40000" =                                                 {
+                                                    Action = 10;
+                                                    Text = "[1;5F";
+                                                };
+                                            };
+                                            "Mouse Reporting" = 1;
+                                            Name = Default;
+                                            "Non Ascii Font" = "Monaco 12";
+                                            "Non-ASCII Anti Aliased" = 1;
+                                            "Normal Font" = "Monaco 12";
+                                            "Option Key Sends" = 0;
+                                            "Prompt Before Closing 2" = 0;
+                                            "Right Option Key Sends" = 0;
+                                            Rows = 25;
+                                            Screen = "-1";
+                                            "Scrollback Lines" = 1000;
+                                            "Selected Text Color" =                                             {
+                                                "Blue Component" = 0;
+                                                "Green Component" = 0;
+                                                "Red Component" = 0;
+                                            };
+                                            "Selection Color" =                                             {
+                                                "Blue Component" = 1;
+                                                "Green Component" = "0.8353000283241272";
+                                                "Red Component" = "0.7098000049591064";
+                                            };
+                                            "Semantic History" =                                             {
+                                                action = editor;
+                                                editor = "com.microsoft.VSCode";
+                                                text = "";
+                                            };
+                                            "Send Code When Idle" = 0;
+                                            Shortcut = "";
+                                            "Silence Bell" = 0;
+                                            "Sync Title" = 0;
+                                            Tags =                                             (
+                                            );
+                                            "Terminal Type" = "xterm-256color";
+                                            Transparency = 0;
+                                            "Unlimited Scrollback" = 0;
+                                            "Use Bold Font" = 1;
+                                            "Use Bright Bold" = 1;
+                                            "Use Italic Font" = 1;
+                                            "Use Non-ASCII Font" = 0;
+                                            "Vertical Spacing" = 1;
+                                            "Visual Bell" = 1;
+                                            "Window Type" = 0;
+                                            "Working Directory" = "/Users/jackhobhouse";
+                                        };
+                                        "Bookmark Name" = Default;
+                                        Columns = 124;
+                                        Commands =                                         (
+                                        );
+                                        Directories =                                         (
+                                            "/Users/jackhobhouse"
+                                        );
+                                        Environment =                                         {
+                                            PWD = "/Users/jackhobhouse";
+                                        };
+                                        Hosts =                                         (
+                                        );
+                                        "Is UTF-8" = 1;
+                                        Program =                                         {
+                                            Command = "login -fqp \\"jackhobhouse\\"";
+                                            Type = Command;
+                                        };
+                                        Rows = 47;
+                                        "Session Default Name" = Default;
+                                        "Session GUID" = "9D6CDF74-7EDD-4F45-AE04-EC52C9ED7B5D";
+                                        "Session Name" = "~";
+                                        "Session Window Title" = "jackhobhouse@Jacks-Work-MacBook-Pro: ~";
+                                        "Shell Integration Ever Used" = 0;
+                                        Substitutions =                                         {
+                                            "$$$$" = "$$";
+                                        };
+                                        "Working Directory" = "/Users/jackhobhouse";
+                                    };
+                                    "View Type" = SessionView;
+                                    frame =                                     {
+                                        height = 803;
+                                        width = 878;
+                                        x = 0;
+                                        y = 0;
+                                    };
+                                }
+                            );
+                            "View Type" = Splitter;
+                            frame =                             {
+                                height = 803;
+                                width = 878;
+                                x = 0;
+                                y = 0;
+                            };
+                            isVertical = 0;
+                        };
+                    }
+                );
+                TerminalGuid = "pty-7BBE6DA8-EC2A-4820-97CE-D89AF3BDF895";
+                "Toolbelt Proportions" =                 {
+                    proportions =                     (
+                                                {
+                            heightAsFraction = 1;
+                            name = Profiles;
+                        }
+                    );
+                };
+                "Use Transparency" = 1;
+                Width = 878;
+                "Window Type" = 0;
+                "X Origin" = "-1318";
+                "Y Origin" = 769;
+            }
+        );
+    };
+    WordCharacters = "/-+\\\\~_.";
+    "findMode_iTerm" = 0;
+    "iTerm Version" = "3.5.13";
+}

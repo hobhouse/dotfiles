@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "/usr/local/opt/python@3.9/bin/python3.9",
+    "prefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+    "version": "3.9.19.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/usr/local/bin/python3.9",
+      "/usr/local/opt/python@3.9/bin/python3.9"
+    ]
+  },
+  "symlinks": [
+    [
+      "/usr/local/bin/python3.9",
+      {
+        "secs_since_epoch": 1725439201,
+        "nanos_since_epoch": 117040569
+      },
+      {
+        "secs_since_epoch": 1710864507,
+        "nanos_since_epoch": 0
+      }
+    ],
+    [
+      "/usr/local/opt/python@3.9/bin/python3.9",
+      {
+        "secs_since_epoch": 1725439201,
+        "nanos_since_epoch": 117040569
+      },
+      {
+        "secs_since_epoch": 1710864507,
+        "nanos_since_epoch": 0
+      }
+    ]
+  ]
+}

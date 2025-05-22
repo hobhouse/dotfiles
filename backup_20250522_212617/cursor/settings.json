@@ -1,0 +1,285 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.suggestSelection": "first",
+    "terminal.integrated.scrollback": 3000,
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "atlascode.jira.explorer.fetchAllQueryResults": true,
+    "editor.tabSize": 2,
+    "html.format.wrapLineLength": 0,
+    "editor.inlineSuggest.enabled": true,
+    "atlascode.jira.statusbar.showLogin": true,
+    "applescript.alwaysShowOutput": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "atlascode.bitbucket.explorer.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "atlascode.jira.statusbar.showProduct": false,
+    "ruby.rubocop.executePath": "/Users/jackhobhouse/.asdf/shims/",
+    "ruby.format": "rubocop",
+    "files.trimTrailingWhitespace": true,
+    "atlascode.jira.jqlList": [
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "fd2ecad6-bf21-489d-aac5-2d7de1eb5b16",
+            "query": "status = \"Further Analysis\" AND project = Starfish",
+            "enabled": true,
+            "name": "Further Analysis",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "c3cad977-4bd8-4a04-9a49-bcaa992c8e16",
+            "query": "status = \"Next - Vets\" AND project = Starfish",
+            "enabled": true,
+            "name": "Next Vets",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "79ffb4ba-0874-4a21-989d-3d84011eb1a4",
+            "query": "status = \"Next!\" AND project = Starfish",
+            "enabled": true,
+            "name": "Next",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "b7e1971d-a131-47a9-b1d3-041f489e5afb",
+            "query": "status = \"Ready for Testing\"",
+            "enabled": true,
+            "name": "Ready for Testing",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "3a3408cd-3419-4592-87cc-bd710bc246eb",
+            "query": "status = \"In Testing\"",
+            "enabled": true,
+            "name": "In Testing",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "02db8c3f-5bb6-4a79-8207-bfba2e975bc7",
+            "query": "status = \"Ready for Production\"",
+            "enabled": true,
+            "name": "Ready for Prodcution",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "afb6ea6b-b24a-4589-887f-fddf48d0cc11",
+            "query": "status = \"In Progress\" AND project = Starfish",
+            "enabled": true,
+            "name": "In Progres",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "eaeca947-e664-4303-8b85-79ad2d31e026",
+            "query": "updatedDate >= -1d",
+            "enabled": true,
+            "name": "Recently Updated ",
+            "monitor": true
+        },
+        {
+            "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+            "id": "45b01ea8-6d5b-4bde-8ad1-10bda9cd7fc5",
+            "query": "assignee = currentUser()",
+            "enabled": true,
+            "name": "My Tickets",
+            "monitor": true
+        }
+    ],
+    "html.format.endWithNewline": true,
+    "redhat.telemetry.enabled": false,
+    "applescript.osascript.outputStyle": "e",
+    "remoteControl.enable": false,
+    "[ruby]": {
+        "editor.defaultFormatter": "LoranKloeze.ruby-rubocop-revived"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "discord.removeRemoteRepository": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "gitHistory.hideCommitViewExplorer": true,
+    "ruby.intellisense": "rubyLocate",
+    "gitlens.hovers.currentLine.over": "line",
+    "auto-close-tag.fullMode": true,
+    "git.autofetch": true,
+    "files.trimFinalNewlines": true,
+    "code-runner.runInTerminal": true,
+    "scm.alwaysShowProviders": true,
+    "atlascode.jira.statusbar.enabled": true,
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.explorer.refreshInterval": 5,
+    "auto-close-tag.SublimeText3Mode": true,
+    "highlight-matching-tag.enabled": true,
+    "discord.removeDetails": true,
+    "atlascode.jira.statusbar.showUser": false,
+    "gitTreeCompare.diffMode": "merge",
+    "solargraph.formatting": true,
+    "jira-plugin.username": "vzQsXqRrr0JsWEnJ1TA4ug2WTuJHEIFi",
+    "gitTreeCompare.iconsMinimal": true,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "atlascode.bitbucket.statusbar.showProduct": true,
+    "yaml.schemas": {
+        "file:///Users/jackhobhouse/.cursor/extensions/atlassian.atlascode-3.8.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "discord.removeLowerDetails": true,
+    "applescript.osacompile.stayOpen": true,
+    "git.enableSmartCommit": true,
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "jira-plugin.baseUrl": "https://indigolighthouse.atlassian.net",
+    "applescript.convertErrorRange": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.associations": {
+        "*.erb": "erb",
+        "*.html.erb": "erb"
+    },
+    "atlascode.bitbucket.preferredRemotes": [
+        "upstream",
+        "origin",
+        "https://github.com/indigo-lighthouse/starfish.git",
+        "git@github.com:indigo-lighthouse/starfish.gi",
+        "master"
+    ],
+    "ruby.codeCompletion": "rcodetools",
+    "sync.gist": "ef20bbdee84ffcbe8e82409c7bbc1e81",
+    "window.autoDetectColorScheme": true,
+    "atlascode.bitbucket.statusbar.showUser": true,
+    "window.confirmBeforeClose": "keyboardOnly",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "git.mergeEditor": true,
+    "window.commandCenter": true,
+    "cSpell.allowedSchemas": [
+        "file",
+        "gist",
+        "sftp",
+        "untitled",
+        "vscode-notebook-cell",
+        "vscode-userdata",
+        "vscode-scm"
+    ],
+    "cSpell.enableFiletypes": [
+        "scminput"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "elixir",
+        "git-commit",
+        "go",
+        "graphql",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "jupyter",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "swift",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "yaml",
+        "yml",
+        "scminput"
+    ],
+    "cSpell.showCommandsInEditorContextMenu": false,
+    "vscode-pets.theme": "castle",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "chatgpt.sessionToken": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Ov9w4fG60sPDuL0-.j1U9hSB4ZFrpdgWqaNkm3gqzC0qGhIcz2-3sezkLrl2ow1U-9i5VYDPiDq_TJxlUT1nLaTNztjzRbVeak6bfDT-ddZE4fzcE5CRWu5brohvht-JHwgaNLAW11b3ryHd58eWWRe_Sl7pez9s8vqmNckKr6lL4z9bLfUp4XCquGLSdFm9iqjqbxNndqvwPQht_bh2WLt8BAIeoVX3ugskAqwX_cOSJB-Qdi8mI6E7BE4fcC_9GNsewZRKdh3k26ecUix1FYJqpJtyJm6h5zhuZnT7LDXRFKlL8JsEWgwNbPgBHls1Hq89YAY0cbHmUf0yM6hma1ASFYD6zVsvtujng8Upgc-i3rG6VCNY8Z94V11ax3Gu7om2HTs58axskxC5LcL5Mp-lwCe87XqbsqBlO3gojgRV-860bbuX6nCCIhMfxFo1_eVKD0lMyljtSpyACwew1hvYmjWWux9urucZz3lwc33UYNT5TgknCrWg4toNuOi1aQHO9RT0rjyctzKoCzTHDDpLK29CZsLn9J8radKSJdARsULubDEgQUYlOE_qAgEmrnHukahk4wxCZiUxOwPw4zYibNYx5c4WURXvEmZfCjr169ZuCqF1FRGS6k5LjJicI8l6ph1ITtpIrCpXL9xAJFc1--MLPsk8ejQqJWKrUBoRhFnuk0NDi893fPLjxCMtp7b18_HrhJp0b8k7cEPwQa5aFwp-0blgyHPcvxbYjC1dvIVwjTmS08XKm_KHnjOjgZKe_dH7vxBP6vFF4A-623G7I2MdsrAsGJoSZB_nq8sWNc7f6nmPfKi2-KiHzNIrCepjSR3066ghfzmNvIx6pGSHbcXKjJlUx3ZSRslPBDQcszsc4uZqwMr0347-JbywrjmgTkattRH52QrQrqFHpkAtkBm3ekMJVEau9zbqS7JX-TuFGGuJUYM5xkC2iD--utdkoyygREUDKM7kolgTxESbY9JvHD9gbabRn5acZi4gGQ3AjF6pJG_gVs37EoUoKtaXSzXPYmGQ1s2fUhUF3Cm55pq2bYk-4_-HuPiHSPA9yBxdX4qZ1QyBjuw-K4Lpx4uwkipMcuMjtDI9LXRQdMr6IZGoMLMb82waGLrZuiSs-K4bQGfEpWx17qAjTOTlp9q004fgHdZTx_0nu3rm6BONd4yXNG_x3EYyoDJa-ax0UG-2cTU6rrr_7awd-BrESfF-q1hZ6z7wCBSk5kbXXqpo_atgwY2oZcrGvfrPi-JFae1Z9PioAcnm3De6ksis8PteN2g8lsgNf41aUjMXNfbt_m5XWEsgmB1ZwrWlq4kEJAr9FdQ-s9Pe_uZlWJzZFfVlIwrVG6EPXLRoco3vxtm9EI11m5zMzMdNxvF04g27LO63KoCh_xHZpNmpnEJYSbQh4GvA_OEw2f6-rfO2D9Mpc9T5J1y8kuS9i4xl_bkgbidl4XdbJxidiJdw9dVssYRKa2Af6FCsoV6B0ce2iaYBpzjEX0ve7bJ_T8vQueRkeZwTO3IMFZ0jnfGOfJrEEJWXKpLVylFb83ELFEOgqnO0QKkvwnJt-ga-OkA4TlYqIC5Wc_pxA8tDdYqSeJOPv9ZlomMvIJg6Cb9mbJemdAQgjRe64qVieMAE3aO6Kt_ZC2ehMyM0bkN1naenOYxjPDlWde-Q0Ot3taaMb6A9wcfCU87H6ysQeAms8yZJHaXYAZayD9EAvl2IrtNo44h8b7vD44DVqAq-DaZ7naXMq6jFpkwLxvwJ4J__fvJ-nj6dFspLcnglD6eFG_sYHX_2xB7I1NBgzgATgwBOl8c1apI-hR8hLRNqz_-zBE5NZmb4TMOopgo6u9xyhCIrL6ea-4BhbwH3i3hhzGDY8XIk425c9CGjJxKAx1J4hVGfyfbwbDdbTtBTpB4HLhqrUWhIoHP-WyTuAtBp1biqhy9TuNHD_ppghj6LLpDLa6uTtuE5s6evPxARgtlh4dhSgCWSHcX65e3M92yI_J0cSETXe7pL7znSLD_e4-nTED4WvoHbSQtHgZx9k8p_-4YIglX1-QpX1WQRMx4o0O5-b6w5hn9rmPYZthjB1dbnsqxQpQn149rgf6LfsTAB9wC2X8YgEAKIGO8ZJo357v4zI97bZ9w4evDO09TkUY_2VknGTdiPdRxQX0Lu892iD959nxQzcqd93vA4xy4bknOqI_tB8vkY7ULAy_CAwLx29qwnv3FFZymz6cgaygS6t3wSJdUcKRk-cEjPGEiFfzUcNyMgpImlYGwMPsKDld4KhAyMt7dXvQ3lwN_OQCdUDROdlMctCjizfDTNgxmf_7miz4If4ydwFIkXEBDTggzrKYw0dq6wbxPHZTIMMtc8YzzNFkx7NG8-LMDYhM5z-4EI4.twu3iq7gFCoICOdy9L60PA",
+    "chatgpt.timeoutLength": 120,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "files.autoSave": "onFocusChange",
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "hero-heroku.apiKey": "d92c0ddc-7a28-4626-9b9e-5f4895a21c34",
+    "solargraph.useBundler": true,
+    "vscode-run-rspec-file.suffix": "test",
+    "vscode-run-rspec-file.folder": "test",
+    "vscode-run-rspec-file.custom-command": "bundle exec rails t",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "ruby.rubocop.useBundler": true,
+    "ruby.rubocop.autocorrectOnSave": false,
+    "settingsSync.keybindingsPerPlatform": false,
+    "search.followSymlinks": false,
+    "raycast.loglevel": "debug",
+    "atlascode.jira.enabled": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.minimap.enabled": true,
+    "files.insertFinalNewline": true,
+    "gitlens.ai.experimental.model": "openai:gpt-4o",
+    "gitlens.home.preview.enabled": false
+}

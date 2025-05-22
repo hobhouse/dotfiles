@@ -1,0 +1,7 @@
+Jan 03, 2023 12:18:31 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.23.2
+ - Native Image
+ - VM Version : 17.0.2
+ - Git [Branch b699556b21d973d32d92f2aa90d4d38811048755] b699556 - [maven-release-plugin] prepare release 0.23.2

@@ -1,0 +1,4 @@
+/Users/jackhobhouse/.asdf/installs/nodejs/18.12.0/lib
+├── corepack@0.14.2
+└── npm@8.19.2
+
