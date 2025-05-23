@@ -123,12 +123,65 @@ backup_mail() {
     echo -e "${YELLOW}Backup size: $(du -sh "$backup_dir" | cut -f1)${NC}"
 }
 
+# Function to find latest backup
+find_latest_backup() {
+    local drive_path="$1"
+    local latest_backup=""
+    local latest_date=0
+
+    # Find all mail backup directories
+    for backup in "$drive_path"/mail_backup_*; do
+        if [ -d "$backup" ]; then
+            # Extract date from directory name
+            date_str=$(basename "$backup" | sed 's/mail_backup_//')
+            if [[ $date_str =~ ^[0-9]{8}$ ]]; then
+                # Convert to timestamp for comparison
+                timestamp=$(date -j -f "%Y%m%d" "$date_str" "+%s" 2>/dev/null)
+                if [ $? -eq 0 ] && [ $timestamp -gt $latest_date ]; then
+                    latest_date=$timestamp
+                    latest_backup="$backup"
+                fi
+            fi
+        fi
+    done
+
+    echo "$latest_backup"
+}
+
 # Function to restore Mail data
 restore_mail() {
-    local backup_dir="$1"
+    local drive_path="$1"
     local error_occurred=false
+    local backup_dir=""
 
     echo -e "${YELLOW}Starting Mail restore...${NC}"
+
+    # Find the latest backup
+    backup_dir=$(find_latest_backup "$drive_path")
+
+    if [ -z "$backup_dir" ]; then
+        echo -e "${RED}Error: No backup found on drive: $drive_path${NC}"
+        echo -e "${YELLOW}Available backups:${NC}"
+        ls -1 "$drive_path"/mail_backup_* 2>/dev/null || echo "  None found"
+        echo
+        echo -e "${YELLOW}Please:${NC}"
+        echo "1. Make sure you've created a backup first (option 1)"
+        echo "2. Check if the backup directory exists"
+        echo "3. Verify the drive is properly connected"
+        exit 1
+    fi
+
+    echo -e "${BLUE}Found backup: $(basename "$backup_dir")${NC}"
+    echo -e "${YELLOW}Backup size: $(du -sh "$backup_dir" | cut -f1)${NC}"
+
+    # Ask for confirmation
+    echo
+    echo -e "${RED}Warning: This will overwrite your current Mail data.${NC}"
+    read -p "Are you sure you want to restore from this backup? (y/N): " confirm
+    if [[ ! $confirm =~ ^[Yy]$ ]]; then
+        echo -e "${YELLOW}Restore cancelled.${NC}"
+        exit 0
+    fi
 
     # Check if backup directory exists and is readable
     if [ ! -d "$backup_dir" ]; then
@@ -142,8 +195,24 @@ restore_mail() {
     fi
 
     # Verify backup contents
-    if [ ! -d "$backup_dir/Mail" ] || [ ! -f "$backup_dir/com.apple.mail.plist" ] || [ ! -d "$backup_dir/com.apple.mail" ]; then
-        echo -e "${RED}Error: Invalid backup directory. Required files are missing.${NC}"
+    echo "Verifying backup contents..."
+    if [ ! -d "$backup_dir/Mail" ]; then
+        echo -e "${RED}Error: Mail directory missing from backup${NC}"
+        error_occurred=true
+    fi
+
+    if [ ! -f "$backup_dir/com.apple.mail.plist" ]; then
+        echo -e "${RED}Error: Mail preferences missing from backup${NC}"
+        error_occurred=true
+    fi
+
+    if [ ! -d "$backup_dir/com.apple.mail" ]; then
+        echo -e "${RED}Error: Mail containers missing from backup${NC}"
+        error_occurred=true
+    fi
+
+    if [ "$error_occurred" = true ]; then
+        echo -e "${RED}Error: Invalid backup. Required files are missing.${NC}"
         exit 1
     fi
 
@@ -153,9 +222,35 @@ restore_mail() {
         exit 1
     fi
 
+    # Create backup of current Mail data before restore
+    echo "Creating backup of current Mail data..."
+    local current_backup="$HOME/Library/Mail_backup_$(date +%Y%m%d_%H%M%S)"
+    if ! mkdir -p "$current_backup" 2>/dev/null; then
+        echo -e "${RED}Error: Could not create backup of current Mail data${NC}"
+        exit 1
+    fi
+
+    if [ -d "$HOME/Library/Mail" ]; then
+        cp -R "$HOME/Library/Mail" "$current_backup/" 2>/dev/null
+    fi
+    if [ -f "$HOME/Library/Preferences/com.apple.mail.plist" ]; then
+        cp "$HOME/Library/Preferences/com.apple.mail.plist" "$current_backup/" 2>/dev/null
+    fi
+    if [ -d "$HOME/Library/Containers/com.apple.mail" ]; then
+        cp -R "$HOME/Library/Containers/com.apple.mail" "$current_backup/" 2>/dev/null
+    fi
+
+    echo -e "${GREEN}Current Mail data backed up to: $current_backup${NC}"
+
     # Restore Mail data with error checking
     echo "Restoring Mail data..."
 
+    # Remove existing Mail data
+    rm -rf "$HOME/Library/Mail" 2>/dev/null
+    rm -f "$HOME/Library/Preferences/com.apple.mail.plist" 2>/dev/null
+    rm -rf "$HOME/Library/Containers/com.apple.mail" 2>/dev/null
+
+    # Copy new data
     if ! cp -R "$backup_dir/Mail" "$HOME/Library/" 2>/dev/null; then
         echo -e "${RED}Error: Failed to restore Mail directory${NC}"
         error_occurred=true
@@ -172,11 +267,24 @@ restore_mail() {
     fi
 
     if [ "$error_occurred" = true ]; then
-        echo -e "${RED}Restore failed. Some files may have been partially restored.${NC}"
+        echo -e "${RED}Restore failed. Attempting to restore from backup...${NC}"
+        # Restore from the backup we made
+        if [ -d "$current_backup/Mail" ]; then
+            cp -R "$current_backup/Mail" "$HOME/Library/" 2>/dev/null
+        fi
+        if [ -f "$current_backup/com.apple.mail.plist" ]; then
+            cp "$current_backup/com.apple.mail.plist" "$HOME/Library/Preferences/" 2>/dev/null
+        fi
+        if [ -d "$current_backup/com.apple.mail" ]; then
+            cp -R "$current_backup/com.apple.mail" "$HOME/Library/Containers/" 2>/dev/null
+        fi
+        echo -e "${YELLOW}Original Mail data restored from: $current_backup${NC}"
         exit 1
     fi
 
     echo -e "${GREEN}Restore completed successfully from: $backup_dir${NC}"
+    echo -e "${YELLOW}Your previous Mail data was backed up to: $current_backup${NC}"
+    echo -e "${BLUE}You may need to restart your Mac for changes to take effect.${NC}"
 }
 
 # Main script
@@ -222,7 +330,7 @@ case $choice in
         backup_mail "$backup_dir"
         ;;
     2)
-        restore_mail "$backup_dir"
+        restore_mail "$drive_path"
         ;;
     *)
         echo -e "${RED}Invalid choice. Please run the script again and select 1 or 2.${NC}"
