@@ -55,7 +55,7 @@ brew install bitwarden-cli
 # brew install svn
 # brew install hstr
 # brew install tldr
-# brew install duti
+brew install duti
 # brew install htop
 # brew install trash
 # brew install ffmpeg

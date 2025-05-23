@@ -94,3 +94,25 @@ For secure transfer of sensitive files (SSH keys, GPG keys, etc.):
 - SSL certificates are explicitly excluded from the backup process
 - Always verify the integrity of transferred files
 - Consider using a secure transfer method (like a password-protected USB drive) for the sensitive files
+
+### Utility Scripts
+
+The `scripts/` directory contains various utility scripts for managing and automating tasks on macOS. These scripts are organized into several categories:
+
+#### System Management
+- `macos.sh`: Configures macOS system preferences and settings
+- `brew.sh`: Manages Homebrew package manager
+- `cask.sh`: Installs and manages macOS applications
+- `mas.sh`: Manages Mac App Store applications
+
+#### Development Environment
+- Language-specific setup scripts (Python, Go, Ruby, Node.js)
+- IDE and editor configuration (VS Code, Cursor, Sublime Text, iTerm2)
+
+#### Utilities
+- `mail-backup.sh`: Backup and restore Mail app data
+- Git and GitHub utilities for PR management
+- Automation scripts for Zoom and Spotify
+- Shell configuration
+
+For detailed documentation about each script, including usage instructions and best practices, see the [scripts/README.md](scripts/README.md).

@@ -28,7 +28,7 @@ brew install --cask slack
 brew install --cask zoom
 brew install --cask aws-vault
 brew install --cask microsoft-teams
-#brew install --cask iina
+brew install --cask iina in
 #brew install --cask ivpn
 #brew install --cask eul
 #brew install --cask kap

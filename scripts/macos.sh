@@ -41,7 +41,7 @@ defaults write com.apple.screencapture location -string "${HOME}/screenshots"
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Automatically hide and show the Dock
-#  defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool true
 
 # Enable trackpad tap to click
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
@@ -276,6 +276,6 @@ dark-mode on
 
 echo "==> 📜 Setting IINA as default app for media files"
 
-# duti -s com.colliderli.iina .mp4 all
-# duti -s com.colliderli.iina .avi all
-# duti -s com.colliderli.iina .wmv all
+duti -s com.colliderli.iina .mp4 all
+duti -s com.colliderli.iina .avi all
+duti -s com.colliderli.iina .wmv all

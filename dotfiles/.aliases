@@ -93,7 +93,7 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias reload="exec ${SHELL} -l"
 
 alias merge_destroy='/Users/jackhobhouse/Projects/Personal/dotfiles/scripts/merge_and_destroy_pr'
-alias t="./run_tests"
+alias t="./run_tests"read
 alias rt='rails test'
 alias rtf='rails test:failed'
 alias s="OPEN_EMAILS_IN_BROWSER=true ./bin/rails s"
