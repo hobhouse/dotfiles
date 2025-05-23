@@ -7,6 +7,16 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Function to check if running as root
+check_root() {
+    if [ "$EUID" -ne 0 ]; then
+        echo -e "${RED}This operation requires root privileges.${NC}"
+        echo -e "${YELLOW}Please run the script with sudo:${NC}"
+        echo "sudo $0"
+        exit 1
+    fi
+}
+
 # Function to check if Mail app is running
 check_mail_running() {
     if pgrep -x "Mail" > /dev/null; then
@@ -153,8 +163,12 @@ restore_mail() {
     local drive_path="$1"
     local error_occurred=false
     local backup_dir=""
+    local current_user=$(whoami)
 
     echo -e "${YELLOW}Starting Mail restore...${NC}"
+
+    # Check if running as root
+    check_root
 
     # Find the latest backup
     backup_dir=$(find_latest_backup "$drive_path")
@@ -216,28 +230,26 @@ restore_mail() {
         exit 1
     fi
 
-    # Check if we can write to the target directories
-    if [ ! -w "$HOME/Library" ]; then
-        echo -e "${RED}Error: No write permission for: $HOME/Library${NC}"
-        exit 1
-    fi
-
     # Create backup of current Mail data before restore
     echo "Creating backup of current Mail data..."
-    local current_backup="$HOME/Library/Mail_backup_$(date +%Y%m%d_%H%M%S)"
+    local current_backup="/Users/$current_user/Library/Mail_backup_$(date +%Y%m%d_%H%M%S)"
     if ! mkdir -p "$current_backup" 2>/dev/null; then
         echo -e "${RED}Error: Could not create backup of current Mail data${NC}"
         exit 1
     fi
 
-    if [ -d "$HOME/Library/Mail" ]; then
-        cp -R "$HOME/Library/Mail" "$current_backup/" 2>/dev/null
+    # Backup current data with proper permissions
+    if [ -d "/Users/$current_user/Library/Mail" ]; then
+        cp -R "/Users/$current_user/Library/Mail" "$current_backup/" 2>/dev/null
+        chown -R "$current_user:staff" "$current_backup/Mail" 2>/dev/null
     fi
-    if [ -f "$HOME/Library/Preferences/com.apple.mail.plist" ]; then
-        cp "$HOME/Library/Preferences/com.apple.mail.plist" "$current_backup/" 2>/dev/null
+    if [ -f "/Users/$current_user/Library/Preferences/com.apple.mail.plist" ]; then
+        cp "/Users/$current_user/Library/Preferences/com.apple.mail.plist" "$current_backup/" 2>/dev/null
+        chown "$current_user:staff" "$current_backup/com.apple.mail.plist" 2>/dev/null
     fi
-    if [ -d "$HOME/Library/Containers/com.apple.mail" ]; then
-        cp -R "$HOME/Library/Containers/com.apple.mail" "$current_backup/" 2>/dev/null
+    if [ -d "/Users/$current_user/Library/Containers/com.apple.mail" ]; then
+        cp -R "/Users/$current_user/Library/Containers/com.apple.mail" "$current_backup/" 2>/dev/null
+        chown -R "$current_user:staff" "$current_backup/com.apple.mail" 2>/dev/null
     fi
 
     echo -e "${GREEN}Current Mail data backed up to: $current_backup${NC}"
@@ -245,42 +257,56 @@ restore_mail() {
     # Restore Mail data with error checking
     echo "Restoring Mail data..."
 
-    # Remove existing Mail data
-    rm -rf "$HOME/Library/Mail" 2>/dev/null
-    rm -f "$HOME/Library/Preferences/com.apple.mail.plist" 2>/dev/null
-    rm -rf "$HOME/Library/Containers/com.apple.mail" 2>/dev/null
+    # Remove existing Mail data with proper permissions
+    rm -rf "/Users/$current_user/Library/Mail" 2>/dev/null
+    rm -f "/Users/$current_user/Library/Preferences/com.apple.mail.plist" 2>/dev/null
+    rm -rf "/Users/$current_user/Library/Containers/com.apple.mail" 2>/dev/null
 
-    # Copy new data
-    if ! cp -R "$backup_dir/Mail" "$HOME/Library/" 2>/dev/null; then
+    # Copy new data with proper permissions
+    if ! cp -R "$backup_dir/Mail" "/Users/$current_user/Library/" 2>/dev/null; then
         echo -e "${RED}Error: Failed to restore Mail directory${NC}"
         error_occurred=true
+    else
+        chown -R "$current_user:staff" "/Users/$current_user/Library/Mail" 2>/dev/null
     fi
 
-    if ! cp "$backup_dir/com.apple.mail.plist" "$HOME/Library/Preferences/" 2>/dev/null; then
+    if ! cp "$backup_dir/com.apple.mail.plist" "/Users/$current_user/Library/Preferences/" 2>/dev/null; then
         echo -e "${RED}Error: Failed to restore Mail preferences${NC}"
         error_occurred=true
+    else
+        chown "$current_user:staff" "/Users/$current_user/Library/Preferences/com.apple.mail.plist" 2>/dev/null
     fi
 
-    if ! cp -R "$backup_dir/com.apple.mail" "$HOME/Library/Containers/" 2>/dev/null; then
+    if ! cp -R "$backup_dir/com.apple.mail" "/Users/$current_user/Library/Containers/" 2>/dev/null; then
         echo -e "${RED}Error: Failed to restore Mail containers${NC}"
         error_occurred=true
+    else
+        chown -R "$current_user:staff" "/Users/$current_user/Library/Containers/com.apple.mail" 2>/dev/null
     fi
 
     if [ "$error_occurred" = true ]; then
         echo -e "${RED}Restore failed. Attempting to restore from backup...${NC}"
         # Restore from the backup we made
         if [ -d "$current_backup/Mail" ]; then
-            cp -R "$current_backup/Mail" "$HOME/Library/" 2>/dev/null
+            cp -R "$current_backup/Mail" "/Users/$current_user/Library/" 2>/dev/null
+            chown -R "$current_user:staff" "/Users/$current_user/Library/Mail" 2>/dev/null
         fi
         if [ -f "$current_backup/com.apple.mail.plist" ]; then
-            cp "$current_backup/com.apple.mail.plist" "$HOME/Library/Preferences/" 2>/dev/null
+            cp "$current_backup/com.apple.mail.plist" "/Users/$current_user/Library/Preferences/" 2>/dev/null
+            chown "$current_user:staff" "/Users/$current_user/Library/Preferences/com.apple.mail.plist" 2>/dev/null
         fi
         if [ -d "$current_backup/com.apple.mail" ]; then
-            cp -R "$current_backup/com.apple.mail" "$HOME/Library/Containers/" 2>/dev/null
+            cp -R "$current_backup/com.apple.mail" "/Users/$current_user/Library/Containers/" 2>/dev/null
+            chown -R "$current_user:staff" "/Users/$current_user/Library/Containers/com.apple.mail" 2>/dev/null
         fi
         echo -e "${YELLOW}Original Mail data restored from: $current_backup${NC}"
         exit 1
     fi
+
+    # Set proper permissions for all restored files
+    chmod -R 700 "/Users/$current_user/Library/Mail" 2>/dev/null
+    chmod 600 "/Users/$current_user/Library/Preferences/com.apple.mail.plist" 2>/dev/null
+    chmod -R 700 "/Users/$current_user/Library/Containers/com.apple.mail" 2>/dev/null
 
     echo -e "${GREEN}Restore completed successfully from: $backup_dir${NC}"
     echo -e "${YELLOW}Your previous Mail data was backed up to: $current_backup${NC}"
