@@ -15,3 +15,5 @@ Thumbs.db
 
 # Exclude any direnv files
 .env
+
+**/.claude/settings.local.json

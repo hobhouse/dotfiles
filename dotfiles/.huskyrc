@@ -1,5 +1,0 @@
-# Runs before husky hooks
-# https://typicode.github.io/husky/#/?id=command-not-found
-
-# Add asdf shims to PATH
-export PATH="$HOME/.asdf/shims:$PATH"

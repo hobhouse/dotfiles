@@ -1,0 +1,9 @@
+otpauth://totp/Patform%20EU?secret=CGAYKVDJZQI3ZUBFSXBXFLVYJ2F6LRSH&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Stripe%20Starfish?secret=DQF4HDSYMMRU7QJVIALCZOAQ&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Bottomline%20Cat?secret=GFFW22BYOJWVI2KUPJYECTCUGFFEY2KJ&algorithm=SHA1&period=30&digits=6
+otpauth://totp/dnsimple?secret=ILUROPARKCYQQATLJYU7UUKCI4N5SBOXGDF547X4TKMNR4AOL2GA&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Github%20Bot?secret=PTQBCSUV7TORNZ7E&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Freetrade?secret=UDEYGEWSC4GW7MVN5ZFULTRZY4ZETCGO&algorithm=SHA1&period=30&digits=6
+otpauth://totp/AWS%20SSO?secret=N23JXETUJOJLFYVYXOTSZ3Q5G3EAWS53&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Heroku?secret=RIZZDYXKLGM24KSMTSBOTYA6SQYDHOKH&algorithm=SHA1&period=30&digits=6
+otpauth://totp/Platform%20US?secret=DVDNPJFAFPMJA47ONZJOVMETZDBBN4FN&algorithm=SHA1&period=30&digits=6

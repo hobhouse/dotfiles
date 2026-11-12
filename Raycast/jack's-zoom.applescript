@@ -6,35 +6,25 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon ??
 
 # Documentation:
 # @raycast.description Join meeting room and paste link
 # @raycast.author Jack Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
-set the clipboard to "https://indigolighthouse.zoom.us/j/5449113923?pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09"
+set zoomLink to "https://indigolighthouse.zoom.us/j/5449113923?pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09"
+set the clipboard to zoomLink
 
-tell application "Chrome" to activate
+set meetingURL to "zoommtg://zoom.us/join?confno=5449113923&pwd=TWdWaXNsSHA2RTdLZEpFOFR1VHI5Zz09"
 
-tell application "slack" to activate
+-- Open Zoom link using the default handler (usually Zoom app)
+open location meetingURL
+delay 1
 
-tell application "System Events" to keystroke "v" using command down
-
-tell application "zoom.us" to activate
-
+-- Activate Slack and paste the link
+tell application "Slack" to activate
 delay 0.5
-
 tell application "System Events"
-    tell process "zoom.us"
-
-        set StartMeeting to menu item "Start Meeting" of menu "zoom.us" of menu bar 0
-
-        repeat while not enabled of StartMeeting
-            delay 0.25
-        end repeat
-
-        click StartMeeting
-
-    end tell
+    keystroke "v" using command down
 end tell

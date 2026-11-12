@@ -72,15 +72,12 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
   rails
-  ruby
   bundler
   autojump
   zsh-autosuggestions
-  rbenv
   zsh-syntax-highlighting
   yarn
   thefuck
-  dotenv
   autojump
   alias-finder
   copypath
@@ -94,6 +91,9 @@ plugins=(git
 source $HOME/.aliases
 
 source $ZSH/oh-my-zsh.sh
+export PATH="$HOME/.asdf/shims:$PATH"
+export PATH="/opt/homebrew/opt/asdf/bin:$PATH"
+
 
 # User configuration
 
@@ -118,16 +118,12 @@ export PATH="$PATH:/Users/jackhobhouse/.local/bin"
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
 
 export NVM_DIR=~/.nvm
 
-export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
-export PATH="$HOME/.asdf/shims:$PATH"
-. /usr/local/opt/asdf/libexec/asdf.sh
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
-# Source asdf-direnv
-source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
+
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
 export PATH=$PATH:/Users/jackhobhouse/Projects/Work/sdo
@@ -136,3 +132,9 @@ export PATH=$PATH:/Users/jackhobhouse/go
 function kms_decrypt() {
     aws kms decrypt --region eu-west-1 --ciphertext-blob $1 --query Plaintext --output text | base64 -d
 }
+
+export PATH=$(echo $PATH | tr ':' '\n' | grep -v rbenv | paste -sd: -)
+
+# aws-vault: Touch ID to unlock keychain, sign out of old console session on login
+export AWS_VAULT_BIOMETRICS=true
+export AWS_VAULT_AUTO_LOGOUT=true

@@ -13,5 +13,10 @@
 # @raycast.author Jack Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
-launchctl stop com.apple.CalendarAgent
-launchctl start com.apple.CalendarAgent
+
+set -e
+
+launchctl stop com.apple.CalendarAgent || echo "Failed to stop CalendarAgent"
+launchctl start com.apple.CalendarAgent || echo "Failed to start CalendarAgent"
+
+echo "✅ CalendarAgent restart attempted."

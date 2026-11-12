@@ -28,12 +28,11 @@
     "emmet.includeLanguages": {
         "erb": "html"
     },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
     "editor.suggestSelection": "first",
     "editor.accessibilitySupport": "off",
     "ruby.intellisense": "rubyLocate",
-    "yaml.schemas": {
-      "file:///Users/jackhobhouse/.vscode/extensions/atlassian.atlascode-2.10.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
     "atlascode.jira.jqlList": [
       {
         "id": "fd2ecad6-bf21-489d-aac5-2d7de1eb5b16",
@@ -120,12 +119,11 @@
         "*.erb": "erb"
     },
     "[ruby]": {
-        "editor.defaultFormatter": "misogi.ruby-rubocop"
+        "editor.defaultFormatter": "LoranKloeze.ruby-rubocop-revived"
     },
     "editor.tabSize": 2,
     "ruby.rubocop.suppressRubocopWarnings": true,
     "git.enableSmartCommit": true,
-    "ruby.rubocop.executePath": "/Users/jackhobhouse/.rbenv/shims/",
     "atlascode.jira.statusbar.showLogin": true,
     "atlascode.jira.statusbar.showUser": false,
     "atlascode.jira.statusbar.showProduct": false,
@@ -145,5 +143,69 @@
     "jira-plugin.username": "vzQsXqRrr0JsWEnJ1TA4ug2WTuJHEIFi",
     "discord.removeDetails": true,
     "discord.removeRemoteRepository": true,
-    "discord.removeLowerDetails": true
+    "discord.removeLowerDetails": true,
+    "atlascode.jira.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vscode-run-rspec-file.folder": "test",
+    "vscode-run-rspec-file.custom-command": "bundle exec rails t",
+    "vscode-run-rspec-file.suffix": "test",
+    "rubyTestRunner.runTestButtonEnabled": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Snazzy Light",
+    "circleci.hostUrl": "",
+    "editor.indentSize": "tabSize",
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[dockercompose]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced",
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "chat.tools.terminal.autoApprove": {
+      "bin/rails": true,
+      "DISABLE_SPRING=1": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "rubyLsp.rubyVersionManager": {
+      "identifier": "asdf"
+    },
+    "cSpell.userWords": [
+      "organisation"
+    ],
+    "atlascode.rovodev.enabled": false,
+    "atlascode.rovodev.thinkingBlockEnabled": false,
+    "atlascode.rovodev.showEntitlementNotifications": false,
+    "ruby.rubocop.useServer": true,
+    "rubyLsp.formatter": "rubocop",
+    "ruby.rubocop.onSave": false,
+    "chat.viewSessions.orientation": "stacked",
+    "[erb]": {
+      "editor.defaultFormatter": "Shopify.ruby-lsp"
+    },
+    "claudeCode.preferredLocation": "panel",
+    "workbench.preferredDarkColorTheme": "Dark+",
+    "[csv]": {
+
+    },
+    "security.promptForLocalFileProtocolHandling": false,
+    "yaml.disableSchemaDetection": [
+      "**/.github/workflows/*.yml",
+      "**/.github/workflows/*.yaml",
+      "**/.gitea/workflows/*.yml",
+      "**/.gitea/workflows/*.yaml",
+      "**/.forgejo/workflows/*.yml",
+      "**/.forgejo/workflows/*.yaml"
+    ],
+    "atlascode.jira.lastCreatePreSelectedValues": {
+      "siteId": "c8f6a6ff-6fc0-425c-a2c4-f6551dd01c3d",
+      "projectKey": "ADP",
+      "issueTypeId": ""
+    }
 }

@@ -13,6 +13,13 @@
 # @raycast.author Jack Hobhouse
 # @raycast.authorURL https://github.com/hobhouse
 
-blueutil --connect  2c-76-00-e1-26-d4
 
-SwitchAudioSource -a -t output -s "Jack’s AirPods Pro"
+# Prerequisites
+# brew install blueutil
+# brew install switchaudio-osx
+
+
+# blueutil --connect  2c-76-00-e1-26-d4
+blueutil --connect  bc-80-4e-ac-b5-44
+
+SwitchAudioSource -a -t output -s "Jack’s AirPods Pro #2"
